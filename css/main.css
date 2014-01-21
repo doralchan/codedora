@@ -1,0 +1,9 @@
+body{
+	top: 0;
+	left: 0;
+}
+.nav{
+	height: 30px;
+	width: 100%;
+	background-color: black;
+}
