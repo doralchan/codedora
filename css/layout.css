@@ -2561,11 +2561,11 @@ h1 { font-size: 28px; line-height:28px; }
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
 	width:80px;
-	height:50px;
+	height:60px;
 	left:10px;
 	top:10px;
 	background:url('../images/logo.png') no-repeat center center;
-	background-size: 90px;
+	background-size: 70px;
 	-webkit-transition : all 0.5s ease-out;
 	-moz-transition : all 0.5s ease-out;
 	-o-transition :all 0.5s ease-out;
