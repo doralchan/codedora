@@ -8,7 +8,6 @@
 		});
 	});
 
-
 //Scrolling	
 		
 	$(document).ready(
@@ -16,7 +15,6 @@
 		$("html").niceScroll();
 		}
 	);
-	
 	
 //Navigation	
 
@@ -51,9 +49,7 @@ $(document).ready(function(){"use strict";
 	});
 });
 
-
 //Home Background Slider
-
             $.mbBgndGallery.buildGallery({
                 containment:"#home",
                 timer:2000,
@@ -86,7 +82,6 @@ $(document).ready(function(){"use strict";
                 onPrev:function(opt){}
             });
 
-			
 //Home Text Rotator
 
             $(document).ready(function () {
@@ -100,15 +95,12 @@ $(document).ready(function(){"use strict";
 
             });	  
 	
-	
 //Tooltip
 
 $(document).ready(function() {
 	$(".tipped").tipper();
 });	
 
-
-	
 //Team flip
 	
 $(document).ready(function () {
@@ -117,7 +109,6 @@ $(document).ready(function () {
         return false;
     });
 });
- 
  
 //Testimonials slider
 	$(document).ready(function(){
@@ -131,9 +122,6 @@ $(document).ready(function () {
 		});
 	});	
  
- 
-
- 
  //Counter 
 	
     jQuery(document).ready(function( $ ) {
@@ -143,7 +131,6 @@ $(document).ready(function () {
         });
     });	
 
- 
 //Portfolio filter 
 
 /*global $:false */
@@ -228,20 +215,6 @@ $(document).ready(function () {
 		});
 
 });	
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
  //Colorbox single project pop-up
 
 $(document).ready(function(){
@@ -250,12 +223,11 @@ $(".iframe").colorbox({iframe:true, width:"100%", height:"100%"});
 
 $(".group1").colorbox({rel:'group1'});	
  
- 
 //Google map
 
 jQuery(document).ready(function(){
-	var e=new google.maps.LatLng(44.789511,20.43633),
-		o={zoom:14,center:new google.maps.LatLng(44.789511,20.43633),
+	var e=new google.maps.LatLng(37.8820815,-122.2700572),
+		o={zoom:14,center:new google.maps.LatLng(37.8820815,-122.2700572),
 		mapTypeId:google.maps.MapTypeId.ROADMAP,
 		mapTypeControl:!1,
 		scrollwheel:!1,
@@ -269,50 +241,13 @@ jQuery(document).ready(function(){
 		var g='<div class="map-tooltip"><h6>Chronos</h6><p>Checking out our office too?</p></div>',a=new google.maps.InfoWindow({content:g})
 		,t=new google.maps.MarkerImage("images/map-pin.png",new google.maps.Size(40,70),
 		new google.maps.Point(0,0),new google.maps.Point(20,55)),
-		i=new google.maps.LatLng(44.789511,20.43633),
+		i=new google.maps.LatLng(37.8820815,-122.2700572),
 		p=new google.maps.Marker({position:i,map:n,icon:t,zIndex:3});
 		google.maps.event.addListener(p,"click",function(){a.open(n,p)}),
 		$(".button-map").click(function(){$("#google_map").slideToggle(300,function(){google.maps.event.trigger(n,"resize"),n.setCenter(e)}),
 		$(this).toggleClass("close-map show-map")});
-
 });
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
 // Switcher CSS 
   $(document).ready(function() {
 "use strict";

@@ -1,14 +1,8 @@
 <?php
 
-/* Code by David McKeown - craftedbydavid.com */
-/* Editable entries are bellow */
-
 $send_to = "leifdesigns@web434.webfaction.com";
 $send_subject = "Ajax form ";
 
-
-
-/*Be careful when editing below this line */
 
 $f_name = cleanupentries($_POST["name"]);
 $f_email = cleanupentries($_POST["email"]);

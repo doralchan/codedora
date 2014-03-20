@@ -8,7 +8,7 @@ $.fn.extend({
             // time (seconds) between flipps
             interval: 3,
             // speed (ms) of animations
-            speed: 1000,
+            speed: 1100,
             // distance to fade out
             distance: "150px"
         };
