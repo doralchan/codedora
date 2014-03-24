@@ -2626,6 +2626,9 @@ ul.slimmenu li > ul {
 .flippy li{
     line-height: 55px;
 }
+.flippysprout{
+    padding-top: 55px;
+}
 .social-top{ 
 	margin-top:100px;
 }
@@ -2690,6 +2693,9 @@ ul.slimmenu li > ul {
 }
 .flippy li{
     line-height: 35px;
+}
+.flippysprout{
+    padding-top: 35px;
 }
 .social-top{ 
 	margin-top:70px;
