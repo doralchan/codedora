@@ -415,7 +415,7 @@ ul.slimmenu li ul {
     right: 8px;
     top: 50%;
     width: 40px;
-    background: white;
+    background: #e6eff6;
     background-repeat: repeat-x;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.075);
     padding: 10px 10px;
@@ -436,13 +436,12 @@ ul.slimmenu li ul {
 }
 .collapse-button:hover, .collapse-button:focus {
     background-image: none;
-    background-color: #040404;
+    background-color: #8d95a0;
     color: #FFF;
 }
 .collapse-button .icon-bar {
     background-color: #fff;
     border-radius: 1px 1px 1px 1px;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
     display: block;
     height: 2px;
     width: 18px;
@@ -979,7 +978,7 @@ path.stroke-thin {
 	padding-bottom:5px;
 	padding-left:5px;
 	padding-right:5px;
-	background:#383838;
+	background:#e6eff6;
 	position: absolute;
 	margin: 0 auto;
 	text-align:center;
@@ -1002,7 +1001,7 @@ path.stroke-thin {
 	-ms-transform: rotatey(-180deg);
 	-o-transform: rotatey(-180deg);
 	transform: rotatey(-180deg);
-	background:#383838;
+	background: #a8afb9;
 	cursor: pointer;
 	width:100%;
 	height:100%;
@@ -1013,6 +1012,7 @@ path.stroke-thin {
 	text-align:left;
 	padding-left:20px;
 	padding-right:20px;
+    color: white;
 } 
 .flipWrapper .card .back p:last-child{
 	padding-top:10px;
@@ -1271,7 +1271,7 @@ path.stroke-thin {
 #action {
 	position: relative; 
 	width: 100%;
-	background: white;
+	background: #c5dd71;
 	padding-top:30px;
 	padding-bottom:30px;
 	margin-bottom:150px;
@@ -1282,21 +1282,15 @@ path.stroke-thin {
 	transition : all 0.3s ease-out;
 }
 #action:hover {
-	background:rgba(0,0,0,.5);
+	background: #698039;
 }
 #action h6 {
-	color: gray;
+	color: white;
 }
 #action p {
 	padding-top:10px;
 	text-align:center;
 }
- 
- 
- 
- 
- 
- 
 #contact{
 	position: relative; 
 	margin: 0 auto;
@@ -1502,9 +1496,9 @@ path.stroke-thin {
     width: 100%;
     display: block;
     color: #fff;
-    background: rgba(0,0,0,.3);
+    background: #C6DE6A;
     font-size: 16px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Mission Gothic';
     text-transform:  uppercase;
     padding: 30px 0;
 	z-index:200;
@@ -1540,7 +1534,7 @@ path.stroke-thin {
 }
 
 .button-map:hover {
-    background: rgba(0,0,0,.7);
+    background: #688134;
     color: #fff;
 }
 
@@ -1568,7 +1562,7 @@ path.stroke-thin {
 	position: relative; 
 	margin: 0 auto;
 	width: 100%;
-	background:#101010;
+	background:#a8afb9;
 	padding-top:60px;
 	padding-bottom:35px;
 }
@@ -1587,10 +1581,7 @@ path.stroke-thin {
 	z-index:10000;	
 	font-size: 22px;
 	line-height: 40px;
-	background:#000000;
-	-webkit-box-shadow: 0 -5px 15px -5px #000;
-	-moz-box-shadow: 0 -5px 15px -5px #000;
-	box-shadow: 0 -5px 15px -5px #000;
+	background: white;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -1626,7 +1617,6 @@ path.stroke-thin {
 	position: relative; 
 	margin: 0 auto;
 	width: 100%;
-	background:#292929;
 	overflow:hidden;
 	padding-top:50px;
 	z-index:2;
@@ -2226,7 +2216,7 @@ iframe{
 	position: relative; 
 	margin: 0 auto;
 	padding:20px;
-	background-color:#292929;
+	background-color:#e7eef6;
 	background-image:url('../images/qud1.png');
 	background-repeat:no-repeat;
 	background-position:top right;
@@ -2267,7 +2257,7 @@ iframe{
 	position: relative; 
 	margin: 0 auto;
 	padding:20px;
-	background-color:#292929;
+	background-color:#e7eef6;
 	background-image:url('../images/qud.png');
 	background-repeat:no-repeat;
 	background-position:top left;
@@ -2581,7 +2571,7 @@ ul.slimmenu li > ul {
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 .big-text { 
 	margin-top:-40px;
-	font-size: 80px; 
+	font-size: 60px; 
 	line-height:40px;
 }
 .small-text { 
@@ -2627,17 +2617,20 @@ ul.slimmenu li > ul {
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .big-text { 
-	margin-top:-26px;
+	margin-top:-60px;
 	font-size: 60px; 
 	line-height:30px;
 }
 .small-text { 
-	margin-top:20px;
+	margin-top:70px;
 	font-size: 20px; 
 	line-height:20px;
 }
+.flippy li{
+    line-height: 55px;
+}
 .social-top{ 
-	margin-top:50px;
+	margin-top:100px;
 }
 .prev {
 	top:auto;
@@ -2687,19 +2680,22 @@ ul.slimmenu li > ul {
 .big-text { 
 	margin-top:-40px;
 	font-size: 40px; 
-	line-height:50px;
+	line-height:40px;
 }
 .big-text span{ 
 	padding-left:15px; 
 	padding-right:15px;
 }
 .small-text { 
-	margin-top:20px;
+	margin-top:40px;
 	font-size: 14px; 
 	line-height:14px;
 }
+.flippy li{
+    line-height: 35px;
+}
 .social-top{ 
-	margin-top:50px;
+	margin-top:70px;
 }
 .prev {
 	top:auto;
@@ -2751,7 +2747,7 @@ ul.slimmenu li > ul {
 @media only screen and (max-width: 319px) {
 .big-text { 
 	margin-top:-30px;
-	font-size: 15px; 
+	font-size: 16px; 
 	line-height:20px;
 }
 .big-text span{ 
