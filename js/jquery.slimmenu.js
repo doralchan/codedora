@@ -32,7 +32,7 @@
         {
             var $options = this.options,
                 $menu = this.$elem,
-                $collapser = '<div class="menu-collapser">'+$options.collapserTitle+'<div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div></div>',
+                $collapser = '<div class="menu-collapser">'+$options.collapserTitle+'<div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div></div>',
                 $menu_collapser;
 
             $menu.before($collapser);

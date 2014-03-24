@@ -346,9 +346,9 @@ body.royal_loader {
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
 	width:116px;
-	height:65px;
+	height:55px;
 	background:url('../images/logo.png') no-repeat center center;
-	background-size: 80px;
+	background-size: 70px;
 	-webkit-transition : all 0.5s ease-out;
 	-moz-transition : all 0.5s ease-out;
 	-o-transition :all 0.5s ease-out;
@@ -389,7 +389,7 @@ ul.slimmenu li ul {
 .logo{
 	position:absolute;
 	width:146px;
-	height: 90px;
+	height: 85px;
 	z-index:10000;
 	left:10px;
 	top:10px;
@@ -415,13 +415,10 @@ ul.slimmenu li ul {
     right: 8px;
     top: 50%;
     width: 40px;
-    background-image: linear-gradient(to bottom, #151515, #040404);
+    background: white;
     background-repeat: repeat-x;
-    border-style: solid;
-    border-width: 1px;
-    color: #000;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.075);
-    padding: 7px 10px;
+    padding: 10px 10px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     cursor: pointer;
     font-size: 14px;
@@ -453,7 +450,7 @@ ul.slimmenu li ul {
 }
 
 ul.slimmenu {
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-right:10px;
 	text-align:right;
 	margin-top:13px;
@@ -603,7 +600,7 @@ ul.slimmenu.collapsed li > ul {
 	text-shadow: 0 0 15px rgba(0,0,0,0.3);
 	text-align:center;
 	font-weight:700;
-	font-size: 80px; 
+	font-size: 70px; 
 	line-height:50px;
 	color: #ededed;
 	z-index: 20; 
@@ -617,7 +614,7 @@ ul.slimmenu.collapsed li > ul {
 	font-family: 'Mission Gothic Bold';
 	text-shadow: 0 0 5px rgba(0,0,0,0.1);
 	text-align:center;
-	font-size: 18px; 
+	font-size: 20px; 
 	line-height:23px;
 	z-index: 20; 
 }
@@ -1274,7 +1271,7 @@ path.stroke-thin {
 #action {
 	position: relative; 
 	width: 100%;
-	background:rgba(0,0,0,.3);
+	background: white;
 	padding-top:30px;
 	padding-bottom:30px;
 	margin-bottom:150px;
@@ -1288,7 +1285,7 @@ path.stroke-thin {
 	background:rgba(0,0,0,.5);
 }
 #action h6 {
-	color: #fff;
+	color: gray;
 }
 #action p {
 	padding-top:10px;
@@ -2689,8 +2686,8 @@ ul.slimmenu li > ul {
 @media only screen and (min-width: 320px) and (max-width: 479px) {
 .big-text { 
 	margin-top:-40px;
-	font-size: 20px; 
-	line-height:20px;
+	font-size: 40px; 
+	line-height:50px;
 }
 .big-text span{ 
 	padding-left:15px; 
@@ -2755,7 +2752,7 @@ ul.slimmenu li > ul {
 .big-text { 
 	margin-top:-30px;
 	font-size: 15px; 
-	line-height:15px;
+	line-height:20px;
 }
 .big-text span{ 
 	padding-left:0; 
