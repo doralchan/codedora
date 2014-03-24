@@ -853,7 +853,6 @@ svg {
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
-
 .show {
 	opacity: 1;
 }
@@ -861,7 +860,6 @@ svg {
 .hide {
 	opacity: 0;
 }
-
 .line-drawing,
 .illustration {
 	-webkit-transition: opacity 0.8s;
@@ -884,8 +882,6 @@ path.stroke-medium {
 path.stroke-thin {
 	stroke-width: 1;
 }
-  
-  
   
  /* #The team
 ================================================== */
@@ -1246,7 +1242,7 @@ path.stroke-thin {
 }
 
 @media only screen and (min-width: 1930px) { .parallax1 { background-size: cover; } }
- @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 	.parallax1 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 }
 @media only screen and (max-width: 959px) {
@@ -1276,6 +1272,7 @@ path.stroke-thin {
 #action p {
 	padding-top:10px;
 	text-align:center;
+    color: black !important;
 }
 #contact{
 	position: relative; 
@@ -2317,7 +2314,7 @@ iframe{
 }
 .services-offer p{
 	text-align:center;
-	padding-top:20px;
+	padding-top:0px;
 	padding-left:20px;
 	padding-right:20px;	
 	padding-bottom:20px;
