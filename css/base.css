@@ -54,7 +54,7 @@
 		font-family: 'OpenSans-Light-webfont';
 		font-size: 14px;
 		line-height:22px;
-		color:#a6a6a6;
+		color:#333333;
 		overflow-x:hidden;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
@@ -67,7 +67,7 @@
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
-		color: gray;
+		color: #444444;
 		font-family: 'Mission Gothic Regular', sans-serif;
 		text-align:center;
 	}

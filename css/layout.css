@@ -467,7 +467,7 @@ ul.slimmenu li a {
 	font-family: 'Lato', sans-serif;
 	font-weight:700;
     border-bottom:1px solid rgba(0,0,0,0);
-    font-size: 14px;
+    font-size: 13px;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -1078,6 +1078,7 @@ path.stroke-thin {
 	line-height:22px;
 	padding-bottom:25px;
 	padding-top:15px;
+    color: #e7eef6;
 }
 .test p{
 	padding-bottom:10px;
@@ -1275,7 +1276,6 @@ path.stroke-thin {
 #action p {
 	padding-top:10px;
 	text-align:center;
-    color: gray !important;
 }
 #contact{
 	position: relative; 
@@ -1311,7 +1311,7 @@ path.stroke-thin {
 	padding-bottom:40px;
 	padding-left:40px;
 	padding-right:40px;
-	background:rgba(255,255,255,.4);
+	background:rgba(255,255,255,.8);
 } 
 .contact-wrap h6{
 	padding-bottom:25px;
@@ -1320,12 +1320,10 @@ path.stroke-thin {
 .contact-wrap p{
 	padding-bottom:30px;
 	text-align:center;
-	color:#fff;
 	opacity:.8;
 } 
 .contact-wrap p span{
 	font-family: 'Mission Gothic Regular';
-	color:#fff;
 	font-size: 20px;
 	line-height: 20px;
 	padding-right:10px;
@@ -1410,7 +1408,7 @@ path.stroke-thin {
 	font-size: 13px;
 	line-height:40px;
 	color:#fff;
-	background: rgba(0,0,0,.4);
+	background: #c5dd71;
  }
 #button-con button:hover{
 	background: rgba(0,0,0,.6);
@@ -1422,22 +1420,22 @@ path.stroke-thin {
 	text-align:center;
 	padding-top:10px;
  }
-	#ajax-form textarea:active,
-	#ajax-form input:active {	
-	  color: #fff;
+#ajax-form textarea:active,
+#ajax-form input:active {	
+	color: gray !important;
 	border-bottom:1px solid rgba(100,100,100,.3);}
-	#ajax-form textarea:active,
-	#ajax-form input:hover {	
-	  color: #fff;
+#ajax-form textarea:active,
+#ajax-form input:hover {	
+	color: gray !important;
 	border-bottom:1px solid rgba(255,255,255,.3);}
-		#ajax-form textarea:focus,
-	#ajax-form input:focus {	 
+#ajax-form textarea:focus,
+#ajax-form input:focus {	 
     outline: none !important;
     border-color: rgba(255,255,255,.6);
     box-shadow: 0 0 10px rgba(0,0,0,.4);}
-	#ajax-form textarea,
-	#ajax-form input {	
-	  color: #fff;
+#ajax-form textarea,
+#ajax-form input {	
+	color: gray !important;
 	border-bottom:1px solid rgba(255,255,255,.3);}
 
 #ajax-form input[type="text"]{
@@ -1448,12 +1446,6 @@ path.stroke-thin {
 	padding-left:2%;
 	padding-right:2%;
 } 
-
-
-
-
-
-
 
 #google_map {
 	-webkit-filter: grayscale(90%);
@@ -1484,7 +1476,7 @@ path.stroke-thin {
     color: #fff;
     background: rgba(197,221,113, 0.7);
     font-size: 16px;
-	font-family: 'Mission Gothic';
+	font-family: 'Mission Gothic Bold';
     text-transform:  uppercase;
     padding: 30px 0;
 	z-index:200;
@@ -2220,6 +2212,7 @@ iframe{
 	padding-left:15px;
 	text-align:left;
 	padding-bottom:25px;
+    color: #a8afb9;
 }
 .last-services p{
 	text-align:left;
@@ -2258,6 +2251,7 @@ iframe{
 	padding-right:15px;
 	text-align:right;
 	padding-bottom:25px;
+    color: #a8afb9;
 }
 .last-services1 p{
 	text-align:right;
