@@ -1296,7 +1296,7 @@ path.stroke-thin {
 	width:100%;  
 }
 @media only screen and (min-width: 1930px) { .parallax2 { background-size: cover; } }
- @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 	.parallax2 { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 }
 @media only screen and (max-width: 959px) {
