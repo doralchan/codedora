@@ -1325,7 +1325,7 @@ path.stroke-thin {
 	padding-bottom:40px;
 	padding-left:40px;
 	padding-right:40px;
-	background:rgba(0,0,0,.4);
+	background:rgba(255,255,255,.4);
 } 
 .contact-wrap h6{
 	padding-bottom:25px;
@@ -2217,7 +2217,6 @@ iframe{
 	margin: 0 auto;
 	padding:20px;
 	background-color:#e7eef6;
-	background-image:url('../images/qud1.png');
 	background-repeat:no-repeat;
 	background-position:top right;
 	overflow:hidden;
@@ -2258,7 +2257,6 @@ iframe{
 	margin: 0 auto;
 	padding:20px;
 	background-color:#e7eef6;
-	background-image:url('../images/qud.png');
 	background-repeat:no-repeat;
 	background-position:top left;
 	overflow:hidden;
@@ -2469,7 +2467,6 @@ iframe{
 	margin: 0 auto;
 	text-align:center;
 	width: 100%;
-	background:#101010;
 	overflow:hidden;
 	padding-top:10px;
 	padding-bottom:10px;
