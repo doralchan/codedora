@@ -381,11 +381,6 @@ ul.slimmenu li ul {
 	box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
-
-
-
-
-
 .logo{
 	position:absolute;
 	width:146px;
@@ -396,8 +391,6 @@ ul.slimmenu li ul {
 	background:url('../images/logo.png') no-repeat center center;
 	background-size: 100px;
 }
-
-
 
 .menu-collapser {
     position: relative;
@@ -675,10 +668,6 @@ top: 0;
 	opacity:.6;
 }
 
-
-
-
-
 /* #Slider
 ================================================== */
 
@@ -803,10 +792,6 @@ left: 0;
     90% { bottom:40px; }
     100% { bottom:30px; }
   }
-
-  
-  
-  
 
 /* #About
 ================================================== */
