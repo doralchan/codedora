@@ -596,6 +596,7 @@ ul.slimmenu.collapsed li > ul {
     line-height:50px;
     color: #ededed;
     z-index: 20;
+    background-color: rgba(0,0,0,0.6);
 }
 .small-text {
     position: absolute;

@@ -8,7 +8,7 @@ $.fn.extend({
             // time (seconds) between flipps
             interval: 3,
             // speed (ms) of animations
-            speed: 1100,
+            speed: 3000,
             // distance to fade out
             distance: "150px"
         };
@@ -44,7 +44,7 @@ $.fn.extend({
                     // clear timer
                     clearInterval(timer);
                 }
-            }, settings.interval * 1000);
+            }, settings.interval * 1500);
         });
     }
 });
