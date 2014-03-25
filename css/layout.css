@@ -1254,8 +1254,8 @@ path.stroke-thin {
 	position: relative; 
 	width: 100%;
 	background: rgba(197,221,113, 0.7);
-	padding-top:30px;
-	padding-bottom:30px;
+	padding-top:25px;
+	padding-bottom:15px;
 	margin-bottom:150px;
 	z-index:200;
 	-webkit-transition : all 0.3s ease-out;
@@ -1397,7 +1397,8 @@ path.stroke-thin {
 	margin-top:10px;
 	}
 #button-con button{
-	width:100%;
+	width:30%;
+    min-width: 100px;
 	height:40px;
 	padding-top:0;
 	margin:0 auto;
@@ -1406,7 +1407,7 @@ path.stroke-thin {
 	font-size: 13px;
 	line-height:40px;
 	color:#fff;
-	background: #c5dd71;
+	background: black;
  }
 #button-con button:hover{
 	background: rgba(0,0,0,.6);
@@ -1777,9 +1778,7 @@ path.stroke-thin {
 	width: 100%;
 	margin: 0 auto;
 }
-
-
-.just_pattern11 { 
+.just_pattern1 { 
 	background: -webkit-gradient(radial, center center, 0, center center, 460, from(rgba(0,0,0,0.01)), to(rgba(0,0,0,.4)));
 	background: -webkit-radial-gradient(circle, rgba(0,0,0,0.01), rgba(0,0,0,.4));
 	background: -moz-radial-gradient(circle, rgba(0,0,0,0.01), rgba(0,0,0,.4));
@@ -2398,8 +2397,6 @@ iframe{
     transform: scale(1.05); 
 }
 
-
-
   @keyframes dollar {
     0% { top:0; }
     10% { top:10px; }
@@ -2432,6 +2429,7 @@ iframe{
 ================================================== */
 
 #logos{
+    display: none;
 	position: relative; 
 	margin: 0 auto;
 	text-align:center;
@@ -2782,8 +2780,6 @@ ul.slimmenu li > ul {
 	width:200px;
 }
 }
-
-
 
 /* #Font-Face
 ================================================== */
