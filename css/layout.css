@@ -590,12 +590,12 @@ ul.slimmenu.collapsed li > ul {
     top: 50%;
     width: 100%;
     font-family: 'Mission Gothic Regular';
-    text-shadow: 0 0 15px rgba(0,0,0,0.3);
+    text-shadow: 0 0 15px rgba(0,0,0,0.7);
     text-align:center;
     font-weight:700;
     font-size: 70px;
     line-height:50px;
-    color: #ededed;
+    color: white;
     z-index: 20;
     background-color: rgba(0,0,0,0.6);
 }
@@ -1361,7 +1361,7 @@ path.stroke-thin {
         font-family: 'OpenSans-Light-webfont';
         font-size: 14px;
         line-height:32px;
-        color: gray;
+        color: black;
     }
     input{
         width: 96%;
