@@ -384,7 +384,7 @@ ul.slimmenu li ul {
 .logo{
     position:absolute;
     width:146px;
-    height: 85px;
+    height: 80px;
     z-index:10000;
     left:10px;
     top:10px;
@@ -465,7 +465,7 @@ ul.slimmenu li a {
     cursor:pointer;
     margin: 0px 12px;
     font-family: 'Lato', sans-serif;
-    font-weight:700;
+    font-weight:800;
     border-bottom:1px solid rgba(0,0,0,0);
     font-size: 13px;
     -webkit-transition: all 300ms linear;
@@ -2355,7 +2355,7 @@ iframe{
     border-top:1px dashed rgba(100,100,100,.4);
     margin-left:20px;
     margin-right:20px;
-    font-size: 10px;
+    font-size: 12px;
 }
 .list-services li:last-child {
     border-bottom:1px dashed rgba(100,100,100,.4);
