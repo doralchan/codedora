@@ -599,6 +599,13 @@ ul.slimmenu.collapsed li > ul {
     z-index: 20;
     background-color: rgba(0,0,0,0.6);
 }
+.big-text span{
+    background: rgba(0,0,0,.3);
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:30px;
+    padding-right:30px;
+}
 .small-text {
     position: absolute;
     top: 50%;
@@ -2207,7 +2214,7 @@ iframe{
     position:relative;
     display:inline-block;
     text-align:left;
-    color: #a8afb9;
+    color: gray;
 }
 .last-services p{
     text-align:left;
@@ -2244,7 +2251,7 @@ iframe{
     position:relative;
     display:inline-block;
     text-align:right;
-    color: #a8afb9;
+    color: gray;
 }
 .last-services1 p{
     text-align:right;
@@ -2346,9 +2353,10 @@ iframe{
     animation: dollar 6s linear infinite;
 }
 
-.services-list p { margin: 10px 0 10px 0;padding:0; }
-
-
+.services-list p {
+    margin: 10px 0 10px 0;
+    padding:0;
+}
 .list-services li {
     list-style: none;
     margin:0 auto;
