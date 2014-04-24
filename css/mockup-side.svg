@@ -694,7 +694,7 @@
 	<rect x="36.8" y="224.7" fill="#FFFFFF" width="71.7" height="34.8"/>
 	<g>
 		
-			<image overflow="visible" opacity="0.2" width="35" height="35" xlink:href="DCE116ED7076B2E5.png"  transform="matrix(1 0 0 1 36.8404 225.5188)">
+			<image overflow="visible" opacity="0.2" width="35" height="35" xlink:href="DCE116ED7076B2E7.png"  transform="matrix(1 0 0 1 36.8404 225.5188)">
 		</image>
 		<g>
 			<path fill="#FFFFFF" d="M68.7,255.4c0,0.6-0.4,1-1,1H41c-0.6,0-1-0.4-1-1v-26.6c0-0.6,0.4-1,1-1h26.7c0.6,0,1,0.4,1,1V255.4z"/>
@@ -933,6 +933,9 @@
 	</g>
 	<g>
 		<text transform="matrix(1 0 0 1 302.6666 230.4674)" fill="#878787" font-family="'Helvetica'" font-size="3.5">Travel</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 302.6666 243.5318)" fill="#878787" font-family="'Helvetica'" font-size="3.5">Add More</text>
 	</g>
 	<g>
 		<text transform="matrix(1 0 0 1 289.6847 87.7745)" font-family="'Helvetica'" font-size="5">My App Library</text>
@@ -1280,6 +1283,42 @@
 		c0.2,0,0.3-0.1,0.4-0.1c0,0,0.1,0,0.1,0h0h0c0.1,0,0.9,0.1,1.8,0.8c0.8,0.7,1.6,2.1,1.7,4.8C132.9,340,132.5,341.2,132,342z"/>
 	<g>
 		<text transform="matrix(1 0 0 1 -38.1998 279.5505)" font-family="'Helvetica'" font-size="6">Top Picks</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 24.2335 220.6669)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Business </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 5.9183 220.6669)" fill="#878787" font-family="'Helvetica'" font-size="3.5">View All</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 43.6885 220.6669)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Finance </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 61.0783 220.6669)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">News</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 74.4116 220.6669)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Travel</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 88.1831 220.6669)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Management</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 11.625 279.5507)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Business </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 -6.6902 279.5507)" fill="#878787" font-family="'Helvetica'" font-size="3.5">View All</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 31.08 279.5507)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Finance </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 48.4698 279.5507)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">News</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 61.8031 279.5507)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Travel</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 75.5746 279.5507)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Management</text>
 	</g>
 	<g>
 		<text transform="matrix(1 0 0 1 -38.1998 373.9653)" font-family="'Helvetica'" font-size="6">Recommended for You</text>
@@ -1747,72 +1786,91 @@
 	<text transform="matrix(1 0 0 1 208.3719 571.5364)" fill="#FFFFFF" font-family="'Helvetica'" font-size="4">Fair Lending</text>
 	<g>
 		<g>
-			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="430.6,315.7 430.6,316 430.3,316 
-							"/>
+			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="430.6,315.5 430.6,315.8 
+				430.3,315.8 			"/>
 			
-				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5026,2.0103" x1="428.3" y1="316" x2="366.5" y2="316"/>
-			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="365.5,316 365.2,316 365.2,315.7 
-							"/>
+				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5026,2.0103" x1="428.3" y1="315.8" x2="366.5" y2="315.8"/>
+			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="365.5,315.8 365.2,315.8 
+				365.2,315.5 			"/>
 			
-				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.502,2.008" x1="365.2" y1="313.7" x2="365.2" y2="194.2"/>
-			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="365.2,193.2 365.2,193 365.5,193 
-							"/>
+				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.502,2.008" x1="365.2" y1="313.5" x2="365.2" y2="194.1"/>
+			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="365.2,193.1 365.2,192.9 
+				365.5,192.9 			"/>
 			
-				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5026,2.0103" x1="367.5" y1="193" x2="429.3" y2="193"/>
-			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="430.3,193 430.6,193 430.6,193.2 
-							"/>
+				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5026,2.0103" x1="367.5" y1="192.9" x2="429.3" y2="192.9"/>
+			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="430.3,192.9 430.6,192.9 
+				430.6,193.1 			"/>
 			
-				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.502,2.008" x1="430.6" y1="195.2" x2="430.6" y2="314.7"/>
+				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.502,2.008" x1="430.6" y1="195.1" x2="430.6" y2="314.5"/>
 		</g>
 	</g>
 	
-		<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5,2" x1="397.9" y1="193" x2="397.9" y2="182.7"/>
+		<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5,2" x1="397.9" y1="192.9" x2="397.9" y2="182.6"/>
 	<g>
 		<g>
-			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="430.6,470.6 430.6,470.8 
-				430.3,470.8 			"/>
+			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="430.6,470.2 430.6,470.4 
+				430.3,470.4 			"/>
 			
-				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5026,2.0103" x1="428.3" y1="470.8" x2="366.5" y2="470.8"/>
-			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="365.5,470.8 365.2,470.8 
-				365.2,470.6 			"/>
+				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5026,2.0103" x1="428.3" y1="470.4" x2="366.5" y2="470.4"/>
+			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="365.5,470.4 365.2,470.4 
+				365.2,470.2 			"/>
 			
-				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.4986,1.9942" x1="365.2" y1="468.6" x2="365.2" y2="327.5"/>
-			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="365.2,326.5 365.2,326.2 
-				365.5,326.2 			"/>
+				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.4986,1.9942" x1="365.2" y1="468.2" x2="365.2" y2="327.2"/>
+			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="365.2,326.2 365.2,325.9 
+				365.5,325.9 			"/>
 			
-				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5026,2.0103" x1="367.5" y1="326.2" x2="429.3" y2="326.2"/>
-			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="430.3,326.2 430.6,326.2 
-				430.6,326.5 			"/>
+				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5026,2.0103" x1="367.5" y1="325.9" x2="429.3" y2="325.9"/>
+			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="430.3,325.9 430.6,325.9 
+				430.6,326.2 			"/>
 			
-				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.4986,1.9942" x1="430.6" y1="328.5" x2="430.6" y2="469.6"/>
+				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.4986,1.9942" x1="430.6" y1="328.2" x2="430.6" y2="469.2"/>
 		</g>
 	</g>
 	
-		<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5,2" x1="397.9" y1="326.2" x2="397.9" y2="316"/>
-	<text transform="matrix(1 0 0 1 367.8886 218.9826)" font-family="'Helvetica-Bold'" font-size="7.353">[ proto-persona ]</text>
-	<text transform="matrix(1 0 0 1 387.7943 228.3161)" enable-background="new    "><tspan x="0" y="0" font-family="'Helvetica-Light'" font-size="7">broker</tspan><tspan x="-9.5" y="8.4" font-family="'Helvetica-Light'" font-size="7">35-years-old</tspan><tspan x="-6.8" y="16.8" font-family="'Helvetica-Light'" font-size="7">tech-savvy</tspan><tspan x="-9.3" y="25.2" font-family="'Helvetica-Light'" font-size="7">high-income</tspan><tspan x="-10.1" y="33.6" font-family="'Helvetica-Light'" font-size="7">lives in soma</tspan><tspan x="-15.8" y="42" font-family="'Helvetica-Light'" font-size="7">busy with clients</tspan><tspan x="0.8" y="50.4" font-family="'Helvetica-Light'" font-size="7">single</tspan><tspan x="-9" y="58.8" font-family="'Helvetica-Light'" font-size="7">travels often</tspan><tspan x="-7.2" y="67.2" font-family="'Helvetica-Light'" font-size="7">instagrams</tspan></text>
-	<text transform="matrix(1 0 0 1 374.1761 343.3822)" enable-background="new    "><tspan x="0" y="0" font-family="'Helvetica-Light'" font-size="7">personalization</tspan><tspan x="3.5" y="8.4" font-family="'Helvetica-Light'" font-size="7">for quick use</tspan><tspan x="6.8" y="16.8" font-family="'Helvetica-Light'" font-size="7">when busy</tspan><tspan x="-1" y="33.6" font-family="'Helvetica-Light'" font-size="7">clean, simple to</tspan><tspan x="2.9" y="42" font-family="'Helvetica-Light'" font-size="7">use and click</tspan><tspan x="1.4" y="58.8" font-family="'Helvetica-Light'" font-size="7">mix of graphic</tspan><tspan x="0.2" y="67.2" font-family="'Helvetica-Light'" font-size="7">and text based</tspan><tspan x="6.4" y="75.6" font-family="'Helvetica-Light'" font-size="7">information</tspan><tspan x="11.3" y="92.4" font-family="'Helvetica-Light'" font-size="7">custom </tspan><tspan x="2.1" y="100.8" font-family="'Helvetica-Light'" font-size="7">categories for</tspan><tspan x="5.8" y="109.2" font-family="'Helvetica-Light'" font-size="7">specific set</tspan><tspan x="10.5" y="117.6" font-family="'Helvetica-Light'" font-size="7">interests</tspan></text>
-	<text transform="matrix(1 0 0 1 381.1787 209.1312)" font-family="'Helvetica-Light'" font-size="10">“jonah”</text>
+		<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5,2" x1="397.9" y1="325.9" x2="397.9" y2="315.8"/>
+	<text transform="matrix(1 0 0 1 367.9257 218.8372)" font-family="'Helvetica-Bold'" font-size="7.3455">[ proto-persona ]</text>
+	<text transform="matrix(1 0 0 1 387.8114 228.1604)" font-family="'Helvetica-Light'" font-size="7">broker</text>
+	<text transform="matrix(1 0 0 1 378.3202 236.5525)" font-family="'Helvetica-Light'" font-size="7">35-years-old</text>
+	<text transform="matrix(1 0 0 1 381.0175 244.9436)" font-family="'Helvetica-Light'" font-size="7">tech-savvy</text>
+	<text transform="matrix(1 0 0 1 378.5204 253.3347)" font-family="'Helvetica-Light'" font-size="7">high-income</text>
+	<text transform="matrix(1 0 0 1 377.7216 261.7268)" font-family="'Helvetica-Light'" font-size="7">lives in soma</text>
+	<text transform="matrix(1 0 0 1 372.0282 270.118)" font-family="'Helvetica-Light'" font-size="7">busy with clients</text>
+	<text transform="matrix(1 0 0 1 388.6103 278.5086)" font-family="'Helvetica-Light'" font-size="7">single</text>
+	<text transform="matrix(1 0 0 1 378.8203 286.9002)" font-family="'Helvetica-Light'" font-size="7">travels often</text>
+	<text transform="matrix(1 0 0 1 380.6191 295.2918)" font-family="'Helvetica-Light'" font-size="7">instagrams</text>
+	<text transform="matrix(1 0 0 1 374.2069 343.1092)" font-family="'Helvetica-Light'" font-size="7">personalization</text>
+	<text transform="matrix(1 0 0 1 377.7031 351.5008)" font-family="'Helvetica-Light'" font-size="7">for quick use</text>
+	<text transform="matrix(1 0 0 1 380.9999 359.8914)" font-family="'Helvetica-Light'" font-size="7">when busy</text>
+	<text transform="matrix(1 0 0 1 373.207 376.6756)" font-family="'Helvetica-Light'" font-size="7">clean, simple to</text>
+	<text transform="matrix(1 0 0 1 377.1034 385.0671)" font-family="'Helvetica-Light'" font-size="7">use and click</text>
+	<text transform="matrix(1 0 0 1 375.6054 401.8503)" font-family="'Helvetica-Light'" font-size="7">mix of graphic</text>
+	<text transform="matrix(1 0 0 1 374.4062 410.241)" font-family="'Helvetica-Light'" font-size="7">and text based</text>
+	<text transform="matrix(1 0 0 1 380.5995 418.6316)" font-family="'Helvetica-Light'" font-size="7">information</text>
+	<text transform="matrix(1 0 0 1 385.496 435.4158)" font-family="'Helvetica-Light'" font-size="7">custom </text>
+	<text transform="matrix(1 0 0 1 376.3046 443.8074)" font-family="'Helvetica-Light'" font-size="7">categories for</text>
+	<text transform="matrix(1 0 0 1 380.0009 452.1971)" font-family="'Helvetica-Light'" font-size="7">specific set</text>
+	<text transform="matrix(1 0 0 1 384.6952 460.5886)" font-family="'Helvetica-Light'" font-size="7">interests</text>
+	<text transform="matrix(1 0 0 1 381.202 208.9949)" font-family="'Helvetica-Light'" font-size="9.9898">“jonah”</text>
 	<g>
 		<g>
 			<g>
-				<circle fill="none" stroke="#0A2C54" stroke-miterlimit="10" cx="397.3" cy="305.8" r="3.8"/>
+				<circle fill="none" stroke="#0A2C54" stroke-miterlimit="10" cx="397.3" cy="305.6" r="3.8"/>
 			</g>
 			<g>
-				<circle fill="#0A2C54" cx="397.3" cy="305.8" r="1.5"/>
+				<circle fill="#0A2C54" cx="397.3" cy="305.6" r="1.5"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="430.6,182.5 430.6,182.7 
-				430.3,182.7 			"/>
+			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="430.6,182.4 430.6,182.6 
+				430.3,182.6 			"/>
 			
-				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5026,2.0103" x1="428.3" y1="182.7" x2="366.5" y2="182.7"/>
-			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="365.5,182.7 365.2,182.7 
-				365.2,182.5 			"/>
+				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.5026,2.0103" x1="428.3" y1="182.6" x2="366.5" y2="182.6"/>
+			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="365.5,182.6 365.2,182.6 
+				365.2,182.4 			"/>
 			
-				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.4949,1.9795" x1="365.2" y1="180.5" x2="365.2" y2="102.3"/>
+				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.4949,1.9795" x1="365.2" y1="180.4" x2="365.2" y2="102.3"/>
 			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="365.2,101.3 365.2,101.1 
 				365.5,101.1 			"/>
 			
@@ -1820,8 +1878,44 @@
 			<polyline fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" points="430.3,101.1 430.6,101.1 
 				430.6,101.3 			"/>
 			
-				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.4949,1.9795" x1="430.6" y1="103.3" x2="430.6" y2="181.5"/>
+				<line fill="none" stroke="#5C9BAA" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0.4949,1.9795" x1="430.6" y1="103.3" x2="430.6" y2="181.4"/>
 		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 47.824 373.9654)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Business </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 29.5087 373.9654)" fill="#878787" font-family="'Helvetica'" font-size="3.5">View All</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 67.279 373.9654)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Finance </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 84.6687 373.9654)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">News</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 98.002 373.9654)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Travel</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 111.7736 373.9654)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Management</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 26.6313 430.2692)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Business </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 8.316 430.2692)" fill="#878787" font-family="'Helvetica'" font-size="3.5">View All</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 46.0863 430.2692)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Finance </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 63.476 430.2692)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">News</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 76.8094 430.2692)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Travel</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 90.5809 430.2692)" fill="#878787" font-family="'Helvetica-LightOblique'" font-size="3.5">Management</text>
 	</g>
 </g>
 <g id="Layer_7" display="none">
