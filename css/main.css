@@ -1,0 +1,60 @@
+body{
+	top: 0;
+	left: 0;
+	margin: 0;
+}
+
+/*navigation*/
+.navbar{
+    float: left;
+	height: 100%;
+    width: 16%;
+	text-align: left;
+	padding: 0;
+	margin: 0 auto;
+	z-index: 5;
+}
+.navbar ul{
+	margin: 0 auto;
+	padding: 50px 0px 0px 25%;
+}
+.navbar li{
+	list-style: none;
+	padding: 10px 0px 0px 0px;
+	cursor: pointer;
+}
+.navbar a{
+	text-decoration: none;
+	font-family: 'Muli';
+	font-weight: 300;
+	color: black;
+    padding: 5px;
+	font-size: 15px;
+}
+.selected{
+    background-color: #efefef;
+}
+
+/*containers*/
+.canvas{
+    float: right;
+    width: 84%;
+}
+.menuitem{
+	display: none;
+	position: absolute;
+	bottom: 0;
+    right: 0;
+    height: 100%;
+}
+
+/*basecontainer*/
+.basecontainer{
+    float: right;
+    width: 84%;
+}
+.base{
+    padding: 2% 2% 2% 0px;
+    width: 95%;
+    float: right;
+}
