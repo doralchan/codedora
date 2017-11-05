@@ -1,1 +1,0 @@
-{"version":3,"sources":["projects/home/styles.css"],"names":[],"mappings":"AAAA,MACE,oBAAsB","file":"static/css/main.6ab3d4b7.css","sourcesContent":[".home {\n  background-color: red;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/projects/home/styles.css"],"sourceRoot":""}
