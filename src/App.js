@@ -24,7 +24,8 @@ class App extends Component {
     return (
       <Deck transition={['zoom', 'slide']}
         theme={ theme }
-        progress='bar'
+        contentHeight={ 1000 }
+        progress='pacman'
         controls={ false }>
         <Slide><Intro /></Slide>
         <Slide bgColor='secondary'><Skills /></Slide>
