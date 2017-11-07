@@ -9,7 +9,7 @@ export default class Work extends Component {
   render() {
     return (
       <div>
-        <Heading size={2}>bits of work</Heading>
+        <Heading size={ 3 }>bits of work</Heading>
       </div>
     );
   }

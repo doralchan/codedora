@@ -7,10 +7,15 @@ import Skills from './skills';
 import Work from './work';
 import Chat from './projects/chat';
 
+import BgSkill from './assets/bg/bg-skill.svg';
+import BgWork from './assets/bg/bg-work.svg';
+
 const theme = createTheme({
   primary: '#FFFFFF',
   secondary: '#2B2D42',
-  tertiary: '#820263'
+  tertiary: '#820263',
+  quaternary: '#41D3BD',
+  quinary: '#EF5D60'
 }, {
   primary: {
     name: 'Montserrat',
@@ -28,8 +33,10 @@ class App extends Component {
         progress='pacman'
         controls={ false }>
         <Slide><Intro /></Slide>
-        <Slide bgColor='secondary'><Skills /></Slide>
-        <Slide><Work /></Slide>
+        <Slide bgImage={ BgSkill } align='center flex-end'>
+          <Skills />
+        </Slide>
+        <Slide bgImage={ BgWork }><Work /></Slide>
       </Deck>
     );
   }

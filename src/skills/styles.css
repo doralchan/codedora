@@ -1,0 +1,9 @@
+.skill-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.skill-item {
+  margin: 30px 60px;
+}
