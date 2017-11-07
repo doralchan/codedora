@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Heading, Text } from 'spectacle';
 
-import Background from '../../shared/background';
-import Concept from '../../shared/concept';
-import Learnings from '../../shared/learnings';
+import Title from '../../shared/title';
+import Phase from '../../shared/phase';
+
+import './styles.css';
 
 class Chat extends Component {
   static propTypes = {
@@ -20,10 +22,34 @@ class Chat extends Component {
   }
 }
 
+Chat.Title = class Chat extends React.Component {
+  render() {
+    return (
+      <Title textColor='quinary' projectTitle='garnishments'>
+        This is the description of chat
+      </Title>
+    )
+  }
+}
+
 Chat.Background = class Chat extends React.Component {
   render() {
     return (
-      <Background>Background Content</Background>
+      <Phase>
+        <Phase.Heading
+          phaseNumber='01'
+          phaseName='background'
+          textColor='quinary' />
+        <Phase.QA question='what'>
+          Answer
+        </Phase.QA>
+        <Phase.QA question='what'>
+          Answer
+        </Phase.QA>
+        <Phase.QA question='what'>
+          Answer
+        </Phase.QA>
+      </Phase>
     )
   }
 }
@@ -31,7 +57,21 @@ Chat.Background = class Chat extends React.Component {
 Chat.Concept = class Chat extends React.Component {
   render() {
     return (
-      <Concept>Concept Content</Concept>
+      <Phase>
+        <Phase.Heading
+          phaseNumber='02'
+          phaseName='concept'
+          textColor='quinary' />
+        <Phase.QA question='what'>
+          Answer
+        </Phase.QA>
+        <Phase.QA question='what'>
+          Answer
+        </Phase.QA>
+        <Phase.QA question='what'>
+          Answer
+        </Phase.QA>
+      </Phase>
     )
   }
 }
@@ -39,9 +79,24 @@ Chat.Concept = class Chat extends React.Component {
 Chat.Learnings = class Chat extends React.Component {
   render() {
     return (
-      <Learnings>Learning Content</Learnings>
+      <Phase>
+        <Phase.Heading
+          phaseNumber='03'
+          phaseName='learnings'
+          textColor='quinary' />
+        <Phase.QA question='what'>
+          Answer
+        </Phase.QA>
+        <Phase.QA question='what'>
+          Answer
+        </Phase.QA>
+        <Phase.QA question='what'>
+          Answer
+        </Phase.QA>
+      </Phase>
     )
   }
 }
+
 
 export default Chat
