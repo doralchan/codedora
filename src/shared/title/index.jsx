@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import {
-  Appear, BlockQuote, Code, Fill, Fit, Heading, Image, Layout,
-  ListItem, List, Quote, Text, Typeface
-} from 'spectacle';
+import { Heading, Text, Typeface } from 'spectacle';
 import './styles.css';
 
 class Title extends Component {
@@ -11,16 +8,16 @@ class Title extends Component {
     children: PropTypes.node.isRequired,
     className: PropTypes.string,
     textColor: PropTypes.string,
-    projectTitle: PropTypes.string
+    projectName: PropTypes.string
   };
 
   render() {
     return (
       <div className={ this.props.className }>
         <div className='heading'>
-          <Heading size={4} textColor='primary'>
+          <Heading size={2} textColor='primary'>
             <span className={ this.props.textColor }> + </span>
-            { this.props.projectTitle }
+            { this.props.projectName }
           </Heading>
         </div>
         <Typeface weight={ 300 }>

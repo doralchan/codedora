@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 70 70">
+  <defs>
+    <style>
+      .a {
+        fill: #41d3bd;
+        animation: skills 3s linear infinite;
+      }
+      @keyframes skills {
+        0% { transform: scale(1); transform-origin: center center; }
+        10% { transform: scale(1.4); transform-origin: center center; }
+        100% { transform: scale(1); transform-origin: center center; }
+      }
+    </style>
+  </defs>
+  <path class="a" d="M25,50.12a25,25,0,1,1,25-25A25,25,0,0,1,25,50.12ZM25,9.21A15.91,15.91,0,1,0,40.91,25.12,15.91,15.91,0,0,0,25,9.21Z"/>
+</svg>

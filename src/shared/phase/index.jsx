@@ -1,21 +1,28 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import {
-  Appear, BlockQuote, Code, Fill, Fit, Heading, Image, Layout,
-  ListItem, List, Quote, Text, Typeface
-} from 'spectacle';
+import classNames from 'classnames';
+import { Heading, Text, Typeface } from 'spectacle';
 import './styles.css';
 
 class Phase extends Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
-    className: PropTypes.string
+    projectName: PropTypes.string,
+    textColor: PropTypes.string
   };
+
+  projectClasses() {
+    return classNames(
+      'phase-project',
+      this.props.textColor
+    )
+  }
 
   render() {
     return (
-      <div className={ this.props.className }>
+      <div className='phase-wrapper'>
         { this.props.children }
+        <div className={ this.projectClasses() }>{ this.props.projectName }</div>
       </div>
     );
   }
@@ -30,11 +37,11 @@ Phase.Heading = class Phase extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='phase-heading'>
         <Heading size={1} textColor={ this.props.textColor }>
           { this.props.phaseNumber }
         </Heading>
-        <Heading size={4}>{ this.props.phaseName }</Heading>
+        <Heading size={4} textColor='secondary'>{ this.props.phaseName }</Heading>
       </div>
     )
   }
@@ -48,10 +55,12 @@ Phase.QA = class Phase extends React.Component {
 
   render() {
     return (
-      <div>
-        <Typeface weight={ 600 }><Text>{ this.props.question }</Text></Typeface>
+      <div className='phase-qa'>
+        <Typeface weight={ 600 }>
+          <Text textSize={ 24 } textColor='secondary'>{ this.props.question }</Text>
+        </Typeface>
         <Typeface weight={ 300 }>
-          <Text textSize={ 22 } lineHeight={ 1.4 } margin={ 10 }>
+          <Text textSize={ 20 } textColor='secondary' lineHeight={ 2 }>
             { this.props.children }
           </Text>
         </Typeface>

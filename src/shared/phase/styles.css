@@ -1,0 +1,14 @@
+.phase-wrapper {
+  text-align: left;
+}
+
+.phase-qa {
+  margin-top: 40px;
+}
+
+.phase-project {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: rotate(270deg);
+}

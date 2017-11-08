@@ -1,12 +1,12 @@
 {
-  "main.css": "static/css/main.9bb9e1da.css",
-  "main.css.map": "static/css/main.9bb9e1da.css.map",
-  "main.js": "static/js/main.d3dd9d5d.js",
-  "main.js.map": "static/js/main.d3dd9d5d.js.map",
+  "main.css": "static/css/main.eb7b14d3.css",
+  "main.css.map": "static/css/main.eb7b14d3.css.map",
+  "main.js": "static/js/main.0c1684bd.js",
+  "main.js.map": "static/js/main.0c1684bd.js.map",
   "static/media/bg-skill.svg": "static/media/bg-skill.2078cb2f.svg",
   "static/media/bg-work.svg": "static/media/bg-work.c4d5c5c4.svg",
-  "static/media/icon-circle.svg": "static/media/icon-circle.8fbaab1b.svg",
-  "static/media/icon-square.svg": "static/media/icon-square.2de074f6.svg",
-  "static/media/icon-triangle.svg": "static/media/icon-triangle.6cd6b752.svg",
+  "static/media/icon-circle.svg": "static/media/icon-circle.fd77fbb9.svg",
+  "static/media/icon-square.svg": "static/media/icon-square.1c755b4a.svg",
+  "static/media/icon-triangle.svg": "static/media/icon-triangle.6f855e36.svg",
   "static/media/profile.png": "static/media/profile.6660e94c.png"
 }

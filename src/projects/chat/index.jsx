@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Heading, Text } from 'spectacle';
 
 import Title from '../../shared/title';
 import Phase from '../../shared/phase';
@@ -25,7 +24,7 @@ class Chat extends Component {
 Chat.Title = class Chat extends React.Component {
   render() {
     return (
-      <Title textColor='quinary' projectTitle='garnishments'>
+      <Title projectName='chat' textColor='senary' >
         This is the description of chat
       </Title>
     )
@@ -35,18 +34,18 @@ Chat.Title = class Chat extends React.Component {
 Chat.Background = class Chat extends React.Component {
   render() {
     return (
-      <Phase>
+      <Phase projectName='chat' textColor='tertiary'>
         <Phase.Heading
           phaseNumber='01'
           phaseName='background'
-          textColor='quinary' />
-        <Phase.QA question='what'>
+          textColor='senary' />
+        <Phase.QA question='what appears to be the issue?'>
           Answer
         </Phase.QA>
-        <Phase.QA question='what'>
+        <Phase.QA question='who does this affect?'>
           Answer
         </Phase.QA>
-        <Phase.QA question='what'>
+        <Phase.QA question='why does this need to be addressed?'>
           Answer
         </Phase.QA>
       </Phase>
@@ -57,18 +56,18 @@ Chat.Background = class Chat extends React.Component {
 Chat.Concept = class Chat extends React.Component {
   render() {
     return (
-      <Phase>
+      <Phase projectName='chat' textColor='tertiary'>
         <Phase.Heading
           phaseNumber='02'
           phaseName='concept'
-          textColor='quinary' />
-        <Phase.QA question='what'>
+          textColor='senary' />
+        <Phase.QA question='what are the most common scenarios?'>
           Answer
         </Phase.QA>
-        <Phase.QA question='what'>
+        <Phase.QA question='what can we do about this now?'>
           Answer
         </Phase.QA>
-        <Phase.QA question='what'>
+        <Phase.QA question='how will this scale?'>
           Answer
         </Phase.QA>
       </Phase>
@@ -79,18 +78,18 @@ Chat.Concept = class Chat extends React.Component {
 Chat.Learnings = class Chat extends React.Component {
   render() {
     return (
-      <Phase>
+      <Phase projectName='chat' textColor='tertiary'>
         <Phase.Heading
           phaseNumber='03'
           phaseName='learnings'
-          textColor='quinary' />
-        <Phase.QA question='what'>
+          textColor='senary' />
+        <Phase.QA question='what metrics did we use?'>
           Answer
         </Phase.QA>
-        <Phase.QA question='what'>
+        <Phase.QA question='how did this perform?'>
           Answer
         </Phase.QA>
-        <Phase.QA question='what'>
+        <Phase.QA question='what improvements can be made?'>
           Answer
         </Phase.QA>
       </Phase>
