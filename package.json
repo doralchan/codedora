@@ -1,6 +1,7 @@
 {
   "name": "dora-deck",
   "version": "0.1.0",
+  "main": "index.js",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.5",
