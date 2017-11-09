@@ -24,9 +24,7 @@ class Garnishments extends Component {
 Garnishments.Title = class Garnishments extends React.Component {
   render() {
     return (
-      <Title projectName='garnishments' textColor='quinary'>
-        This is the description of garnishments
-      </Title>
+      <Title projectName='garnishments' textColor='quinary' />
     )
   }
 }

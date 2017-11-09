@@ -24,9 +24,7 @@ class Guide extends Component {
 Guide.Title = class Guide extends React.Component {
   render() {
     return (
-      <Title projectName='guide' textColor='tertiary' >
-        This is the description of Guide
-      </Title>
+      <Title projectName='guide' textColor='tertiary' />
     )
   }
 }

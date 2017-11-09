@@ -24,9 +24,7 @@ class Chat extends Component {
 Chat.Title = class Chat extends React.Component {
   render() {
     return (
-      <Title projectName='chat' textColor='senary' >
-        This is the description of chat
-      </Title>
+      <Title projectName='chat' textColor='senary' />
     )
   }
 }
