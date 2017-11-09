@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "main": "index.js",
   "repository": "git@github.com:doralchan/codedora.com.git",
+  "homepage": "http://codedora/public",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.5",
