@@ -37,17 +37,17 @@ Chat.Background = class Chat extends React.Component {
           phaseNumber='01'
           phaseName='background'
           textColor='senary' />
-        <Phase.QA question='who does this affect?'>
+        <Phase.QA question='who did this affect?'>
           All external customers and most internal teams in Gusto.
         </Phase.QA>
-        <Phase.QA question='what appears to be the issue?'>
+        <Phase.QA question='what appeared to be the issue?'>
           A little after the release of our new benefits offering, we recognized
           an immediate need to address the Health Insurance Portability and
           Accountability Act. The chat vendor we were using at the time was
           not HIPPAA compliant and to protect sensitive patient data, we needed
           to change tools.
         </Phase.QA>
-        <Phase.QA question='why does this need to be addressed?'>
+        <Phase.QA question='why did this need to be addressed?'>
           Compliance is a key value to the company and myself.
         </Phase.QA>
       </Phase>
@@ -63,16 +63,16 @@ Chat.Concept = class Chat extends React.Component {
           phaseNumber='02'
           phaseName='concept'
           textColor='senary' />
-        <Phase.QA question='what are the most common scenarios?'>
-          Chat is used everywhere. From the corporate site to product, chat is
-          one of the first tools people reach out to for it's immediacy and
-          simplicity.
+        <Phase.QA question='what were the most common scenarios?'>
+          Chat is used everywhere. From the corporate site to product, chat was
+          and continues to be the first tool people access for it's immediacy and
+          simplicity in communication.
         </Phase.QA>
-        <Phase.QA question='what can we do about this now?'>
+        <Phase.QA question='what could we do about this?'>
           We could utilize a HIPPAA compliant API and demonstrate how chat can
           be incorporated into the product experience in a more seamless way.
         </Phase.QA>
-        <Phase.QA question='how will this scale?'>
+        <Phase.QA question='how would this scale?'>
           With the advancement in AI including IBM's Watson, we wanted to develop
           a way for chat to be smart and predict the needs of the user.
         </Phase.QA>
@@ -91,7 +91,7 @@ Chat.Learnings = class Chat extends React.Component {
           textColor='senary' />
         <Phase.QA question='what metrics did we use?'>
           With such a key communication tool at hand, we paid heavy attention to
-          the frequency of people reaching out. 
+          the frequency of people reaching out. This increased by 10%.
         </Phase.QA>
         <Phase.QA question='how did this perform?'>
           The response to the chat change was positive. It continues to be the

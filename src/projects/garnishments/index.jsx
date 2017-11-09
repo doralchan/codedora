@@ -37,18 +37,18 @@ Garnishments.Background = class Garnishments extends React.Component {
           phaseNumber='01'
           phaseName='background'
           textColor='quinary' />
-        <Phase.QA question='who does this affect?'>
+        <Phase.QA question='who did this affect?'>
           Employers, employees, accountants & state agencies
         </Phase.QA>
-        <Phase.QA question='what appears to be the issue?'>
-          Every pay period, employers and accountants waste a lot of time
-          sending out payments to different state agencies on behalf of
-          their employees. These amounts are garnished from employee pay for a
+        <Phase.QA question='what appeared to be the issue?'>
+          Every pay period, employers and accountants were wasting a lot of
+          time sending out payments to different state agencies on behalf of
+          their employees. These amounts were garnished from employee pay for a
           number of reasons including child support, loans, tax liens, etc.
-          They are legally required to fulfill these payments.
+          They were legally required to fulfill these payments.
         </Phase.QA>
-        <Phase.QA question='why does this need to be addressed?'>
-          We want to give that time back to the employer and accountant.
+        <Phase.QA question='why did this need to be addressed?'>
+          We wanted to give that time back to the employer and accountant.
         </Phase.QA>
       </Phase>
     )
@@ -63,17 +63,17 @@ Garnishments.Concept = class Garnishments extends React.Component {
           phaseNumber='02'
           phaseName='concept'
           textColor='quinary' />
-        <Phase.QA question='what are the most common scenarios?'>
+        <Phase.QA question='what were the most common scenarios?'>
           The most common garnishments that occur are child support payments,
           accounting for 40% of all garnishments in the United States. According
           to the U.S. Census Bureau, that's about $32.9 billion dollars annually.
         </Phase.QA>
-        <Phase.QA question='what can we do about this now?'>
+        <Phase.QA question='what could we do about this?'>
           We could automate the payments for these garnishments. As long as we
           have the details of the court order and the earnings per pay period,
           we can send out electronic payments.
         </Phase.QA>
-        <Phase.QA question='how can this scale?'>
+        <Phase.QA question='how would this scale?'>
           Other garnishment types can be added in a similar flow and automated.
         </Phase.QA>
       </Phase>

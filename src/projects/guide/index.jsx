@@ -37,14 +37,18 @@ Guide.Background = class Guide extends React.Component {
           phaseNumber='01'
           phaseName='background'
           textColor='tertiary' />
-        <Phase.QA question='who does this affect?'>
-          Answer
+        <Phase.QA question='who did this affect?'>
+          Internal teams in Gusto
         </Phase.QA>
-        <Phase.QA question='what appears to be the issue?'>
-          Answer
-        </Phase.QA>        
-        <Phase.QA question='why does this need to be addressed?'>
-          Answer
+        <Phase.QA question='what appeared to be the issue?'>
+          With the rapid growth and rebranding of the company, large
+          inconsistencies were developing. There was uncertainty about what UI
+          components, UX paradigms, and assets were available. Undocumented,
+          tribal knowledge became the norm.
+        </Phase.QA>
+        <Phase.QA question='why did this need to be addressed?'>
+          We needed to fill these knowledge gaps to work more consistently and
+          effectively for the quality of the product and sanity of the teams.
         </Phase.QA>
       </Phase>
     )
@@ -59,14 +63,19 @@ Guide.Concept = class Guide extends React.Component {
           phaseNumber='02'
           phaseName='concept'
           textColor='tertiary' />
-        <Phase.QA question='what are the most common scenarios?'>
-          Answer
+        <Phase.QA question='what were the most common scenarios?'>
+          The most common questions were about the UI components. Everyone wanted
+          to know what was available and how they should be implemented in detail.
         </Phase.QA>
-        <Phase.QA question='what can we do about this now?'>
-          Answer
+        <Phase.QA question='what could we do about this?'>
+          We could create a library and guide that would reflect all of these
+          components. This would provide visual and technical guidance for PMs,
+          designers, and engineers.
         </Phase.QA>
-        <Phase.QA question='how will this scale?'>
-          Answer
+        <Phase.QA question='how would this scale?'>
+          The guide is meant to reflect the constantly evolving state of the
+          company. By creating the library and guide in tandem, we have a testing
+          ground for product.
         </Phase.QA>
       </Phase>
     )
@@ -82,13 +91,19 @@ Guide.Learnings = class Guide extends React.Component {
           phaseName='learnings'
           textColor='tertiary' />
         <Phase.QA question='what metrics did we use?'>
-          Answer
+          Since this is an internal tool, I have the luxury of simply asking
+          the users directly and by survey. Periodically, I send a survey asking
+          about possible improvements.
         </Phase.QA>
         <Phase.QA question='how did this perform?'>
-          Answer
+          Incredibly well. Teams continually refer to the guide for details on
+          components, assets and more. It saves a lot of time when there is a
+          single source of truth.
         </Phase.QA>
         <Phase.QA question='what improvements can be made?'>
-          Answer
+          The primary improvement that can be made today is making this more
+          accessible to those who cannot code. Copywriters, researchers, and
+          designers make changes regularly.
         </Phase.QA>
       </Phase>
     )
