@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="600px" viewBox="0 0 1000 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>mapping-chat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mapping-chat">
+            <path d="M408.195503,286.780772 L443.882242,286.780772" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M425.369234,313.780772 L443.290623,313.780772" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M424.782014,286.995903 L424.782014,313.843674" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M557.195503,313.780772 L592.882242,313.780772" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M574.369234,340.780772 L592.290623,340.780772" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M573.782014,313.995903 L573.782014,340.843674" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M557.195503,286.780772 L592.882242,286.780772" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M574.369234,259.780772 L592.290623,259.780772" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M573.782014,259.995903 L573.782014,286.509723" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M259.195503,286.780772 L294.882242,286.780772" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M706.195503,286.780772 L741.882242,286.780772" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M706.195503,259.780772 L741.882242,259.780772" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M706.195503,313.780772 L741.882242,313.780772" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M706.195503,340.780772 L741.882242,340.780772" id="Line" stroke="#820263" stroke-width="1.5" stroke-linecap="square"></path>
+            <g id="Mapping-Block" transform="translate(146.000000, 275.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Initiate</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(295.000000, 275.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Search</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(444.000000, 275.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Care Hours</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(444.000000, 302.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Non-Care Hours</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(593.000000, 302.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Proactive</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(593.000000, 329.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Reactive</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(593.000000, 248.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Proactive</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(593.000000, 275.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Reactive</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(742.000000, 302.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Suggest articles</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(742.000000, 329.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Ticket creation</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(742.000000, 248.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Personal reach</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(742.000000, 275.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Respond</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

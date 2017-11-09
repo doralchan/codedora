@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="600px" viewBox="0 0 1000 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>mapping-garnishment</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mapping-garnishment">
+            <path d="M259.195503,273.780772 L294.882242,273.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M276.369234,300.780772 L294.290623,300.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M408.195503,300.780772 L443.882242,300.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M275.782014,273.995903 L275.782014,300.843674" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M408.195503,273.780772 L443.882242,273.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M425.485935,327.780772 L443.882242,327.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M425.485935,354.780772 L443.882242,354.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M557.195503,300.780772 L592.882242,300.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M574.369234,408.780772 L592.290623,408.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M574.369234,354.780772 L592.290623,354.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M574.369234,381.780772 L592.290623,381.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M574.369234,327.780772 L592.290623,327.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M574.391007,300.784144 L574.391007,435.001686" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M425.391007,139.499956 L425.391007,273.504589" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M425.391007,301.499956 L425.391007,354.591109" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M574.369234,435.780772 L592.290623,435.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M724.369234,408.780772 L742.290623,408.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M724.369234,354.780772 L742.290623,354.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M724.369234,381.780772 L742.290623,381.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M724.369234,327.780772 L742.290623,327.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M724.391007,300.784144 L724.391007,462.615346" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M426.369234,219.780772 L444.290623,219.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M426.369234,165.780772 L444.290623,165.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M426.369234,192.780772 L444.290623,192.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M426.369234,138.780772 L444.290623,138.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M426.369234,246.780772 L444.290623,246.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M706.195503,300.780772 L741.882242,300.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <g id="Mapping-Block" transform="translate(146.000000, 262.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Employee</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(295.000000, 262.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Pretax Deduction</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(295.000000, 289.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Post-tax Deduction</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(444.000000, 289.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Garnishments</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(444.000000, 262.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Fringe Benefits</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(444.000000, 316.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Charity</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(444.000000, 343.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Union Fees</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(593.000000, 424.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Voluntary</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(593.000000, 343.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Student Loans</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(593.000000, 370.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Creditors</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(593.000000, 397.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Federal Loans</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(593.000000, 316.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Tax Liens</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(593.000000, 289.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Child Support</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(742.000000, 343.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Withholding Amt</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(742.000000, 370.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Frequency</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(742.000000, 397.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Max Withholding</tspan>
+                </text>
+            </g>
+            <path d="M724.369234,462.780772 L742.290623,462.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <path d="M724.369234,435.780772 L742.290623,435.780772" id="Line" stroke="#41D3BD" stroke-width="1.5" stroke-linecap="square"></path>
+            <g id="Mapping-Block" transform="translate(742.000000, 424.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Start Date</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(742.000000, 451.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">End Date</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(742.000000, 316.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">CSE Case Number</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(742.000000, 289.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">State Agency</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(444.000000, 181.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Health Insurance</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(444.000000, 208.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">HSA / FSA</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(444.000000, 235.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Commuter</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(444.000000, 154.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Life Insurance</tspan>
+                </text>
+            </g>
+            <g id="Mapping-Block" transform="translate(444.000000, 127.000000)">
+                <rect id="Rectangle" stroke="#003945" stroke-width="1.5" x="0.75" y="0.75" width="111.5" height="21.5"></rect>
+                <text id="Personal-Account" font-family="ProximaNova-Medium, Proxima Nova" font-size="11" font-weight="400" fill="#003945">
+                    <tspan x="9" y="15">Retirement</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
