@@ -45,6 +45,7 @@ Garnishments.Background = class Garnishments extends React.Component {
           sending out payments to different state agencies on behalf of
           their employees. These amounts are garnished from employee pay for a
           number of reasons including child support, loans, tax liens, etc.
+          They are legally required to fulfill these payments.
         </Phase.QA>
         <Phase.QA question='why does this need to be addressed?'>
           We want to give that time back to the employer and accountant.
@@ -63,13 +64,17 @@ Garnishments.Concept = class Garnishments extends React.Component {
           phaseName='concept'
           textColor='quinary' />
         <Phase.QA question='what are the most common scenarios?'>
-          Answer
+          The most common garnishments that occur are child support payments,
+          accounting for 40% of all garnishments in the United States. According
+          to the U.S. Census Bureau, that's about $32.9 billion dollars annually.
         </Phase.QA>
         <Phase.QA question='what can we do about this now?'>
-          Answer
+          We could automate the payments for these garnishments. As long as we
+          have the details of the court order and the earnings per pay period,
+          we can send out electronic payments.
         </Phase.QA>
         <Phase.QA question='how can this scale?'>
-          Answer
+          Other garnishment types can be added in a similar flow and automated.
         </Phase.QA>
       </Phase>
     )
@@ -85,13 +90,18 @@ Garnishments.Learnings = class Garnishments extends React.Component {
           phaseName='learnings'
           textColor='quinary' />
         <Phase.QA question='what metrics did we use?'>
-          Answer
+          We tracked the number of garnishments entered and any care tickets
+          related to the matter to gauge impact and customer sentiment.
         </Phase.QA>
         <Phase.QA question='how did this perform?'>
-          Answer
+          It has performed fairly well so far. It's been available for the past
+          1.5 months and the number of garnishments jumped from 14,800 entries to
+          16,000.
         </Phase.QA>
         <Phase.QA question='what improvements can be made?'>
-          Answer
+          We need to address lump sum payments. These require the employer to
+          contact child support agencies directly each time an additional payment
+          is made.
         </Phase.QA>
       </Phase>
     )

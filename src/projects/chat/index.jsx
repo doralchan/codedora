@@ -38,13 +38,17 @@ Chat.Background = class Chat extends React.Component {
           phaseName='background'
           textColor='senary' />
         <Phase.QA question='who does this affect?'>
-          Answer
+          All external customers and most internal teams in Gusto.
         </Phase.QA>
         <Phase.QA question='what appears to be the issue?'>
-          Answer
+          A little after the release of our new benefits offering, we recognized
+          an immediate need to address the Health Insurance Portability and
+          Accountability Act. The chat vendor we were using at the time was
+          not HIPPAA compliant and to protect sensitive patient data, we needed
+          to change tools.
         </Phase.QA>
         <Phase.QA question='why does this need to be addressed?'>
-          Answer
+          Compliance is a key value to the company and myself.
         </Phase.QA>
       </Phase>
     )
@@ -60,13 +64,17 @@ Chat.Concept = class Chat extends React.Component {
           phaseName='concept'
           textColor='senary' />
         <Phase.QA question='what are the most common scenarios?'>
-          Answer
+          Chat is used everywhere. From the corporate site to product, chat is
+          one of the first tools people reach out to for it's immediacy and
+          simplicity.
         </Phase.QA>
         <Phase.QA question='what can we do about this now?'>
-          Answer
+          We could utilize a HIPPAA compliant API and demonstrate how chat can
+          be incorporated into the product experience in a more seamless way.
         </Phase.QA>
         <Phase.QA question='how will this scale?'>
-          Answer
+          With the advancement in AI including IBM's Watson, we wanted to develop
+          a way for chat to be smart and predict the needs of the user.
         </Phase.QA>
       </Phase>
     )
@@ -82,13 +90,17 @@ Chat.Learnings = class Chat extends React.Component {
           phaseName='learnings'
           textColor='senary' />
         <Phase.QA question='what metrics did we use?'>
-          Answer
+          With such a key communication tool at hand, we paid heavy attention to
+          the frequency of people reaching out. 
         </Phase.QA>
         <Phase.QA question='how did this perform?'>
-          Answer
+          The response to the chat change was positive. It continues to be the
+          most heavily utilized communication tool we have in comparison to
+          phone and email.
         </Phase.QA>
         <Phase.QA question='what improvements can be made?'>
-          Answer
+          Better sales integrations. Chat in this case was optimized for compliance
+          and product experience, but not tracking sales transactions.
         </Phase.QA>
       </Phase>
     )
