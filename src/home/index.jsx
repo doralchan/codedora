@@ -64,7 +64,7 @@ class Home extends Component {
         controls={ false }>
 
         <Slide><Intro /></Slide>
-        <Slide bgImage={ BgSkill } align='center flex-end'><Skills /></Slide>
+        <Slide bgImage={ BgSkill }><Skills /></Slide>
         <Slide bgImage={ BgWork }><Work /></Slide>
 
         <Slide bgColor='senary'><Garnishments.Title /></Slide>
