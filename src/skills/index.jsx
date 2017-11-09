@@ -10,11 +10,11 @@ export default class Skills extends Component {
   render() {
     return (
       <div>
-        <Heading size={ 4 }>who i am</Heading>
+        <Heading size={ 4 }>i'm dora</Heading>
         <Typeface weight={ 300 }>
           <Text textSize={ 22 } lineHeight={ 1.5 } margin={ 10 }>
-            I'm Dora, a senior product designer obsessed with complex<br />
-            problems and simple, elegant solutions. My passions are in
+            A product designer obsessed with complex problems<br/>
+            and simple, elegant solutions. I am passionate about
           </Text>
         </Typeface>
         <div className='skill-list'>
