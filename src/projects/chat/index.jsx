@@ -37,10 +37,10 @@ Chat.Background = class Chat extends React.Component {
           phaseNumber='01'
           phaseName='background'
           textColor='senary' />
-        <Phase.QA question='what appears to be the issue?'>
+        <Phase.QA question='who does this affect?'>
           Answer
         </Phase.QA>
-        <Phase.QA question='who does this affect?'>
+        <Phase.QA question='what appears to be the issue?'>
           Answer
         </Phase.QA>
         <Phase.QA question='why does this need to be addressed?'>

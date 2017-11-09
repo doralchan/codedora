@@ -60,7 +60,7 @@ Phase.QA = class Phase extends React.Component {
           <Text textSize={ 24 } textColor='secondary'>{ this.props.question }</Text>
         </Typeface>
         <Typeface weight={ 300 }>
-          <Text textSize={ 20 } textColor='secondary' lineHeight={ 2 }>
+          <Text textSize={ 20 } lineHeight={ 1.5 } textColor='secondary'>
             { this.props.children }
           </Text>
         </Typeface>

@@ -37,14 +37,17 @@ Garnishments.Background = class Garnishments extends React.Component {
           phaseNumber='01'
           phaseName='background'
           textColor='quinary' />
-        <Phase.QA question='what appears to be the issue?'>
-          Answer
-        </Phase.QA>
         <Phase.QA question='who does this affect?'>
-          Answer
+          Employers, employees, accountants & state agencies
+        </Phase.QA>
+        <Phase.QA question='what appears to be the issue?'>
+          Every pay period, employers and accountants waste a lot of time
+          sending out payments to different state agencies on behalf of
+          their employees. These amounts are garnished from employee pay for a
+          number of reasons including child support, loans, tax liens, etc.
         </Phase.QA>
         <Phase.QA question='why does this need to be addressed?'>
-          Answer
+          We want to give that time back to the employer and accountant.
         </Phase.QA>
       </Phase>
     )

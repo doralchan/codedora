@@ -5,7 +5,6 @@ import './styles.css';
 
 class Title extends Component {
   static propTypes = {
-    children: PropTypes.node.isRequired,
     textColor: PropTypes.string,
     projectName: PropTypes.string
   };
