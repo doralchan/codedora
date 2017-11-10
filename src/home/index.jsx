@@ -69,9 +69,9 @@ class Home extends Component {
 
         <Slide bgColor='senary'><Garnishments.Title /></Slide>
         <Slide><Garnishments.Background /></Slide>
-        <Slide bgImage={ MapGarn } />
         <Slide bgImage={ ArtifactGarn1 } />
         <Slide bgImage={ ArtifactGarn2 } />
+        <Slide bgImage={ MapGarn } />
         <Slide><Garnishments.Concept /></Slide>
         <Slide bgImage={ MockGarn1 } />
         <Slide bgImage={ MockGarn2 } />
