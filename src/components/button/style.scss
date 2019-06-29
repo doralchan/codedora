@@ -1,0 +1,39 @@
+@import './../../styles/breakpoints';
+
+// Button Styles
+
+.btn {
+  display: inline-block;
+  height: 44px;
+  width: 100%;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--color-black);
+
+  @media #{$desktop} {
+    padding: 0 32px;
+    width: auto;
+  }
+
+}
+
+.btn-primary {
+  animation: bgcolor 24s infinite;
+}
+
+.btn-secondary {
+  background-color: var(--color-white);
+  border-color: var(--color-black);
+}

@@ -7,21 +7,18 @@
   grid-template-areas:
     "nav nav nav"
     ". hero ."
-    ". about ."
-    ". participate ."
-    ". speakers ."
-    ". schedule ."
-    ". resources ."
-    "footer footer footer";
+    ". intro ."
+    ". skills ."
+    ". work ."
+    ". blog ."
+    ". contact .";
   grid-template-rows:
     [nav] 80px
-    [hero] auto
-    [about] auto
-    [participate] auto
-    [speakers] auto
-    [schedule] auto
-    [resources] auto
-    [footer] 50px;
+    [intro] auto
+    [skills] auto
+    [work] auto
+    [blog] auto
+    [contact] auto;
   grid-template-columns: 1fr 12fr 1fr;
   grid-row-gap: 32px;
   width: 100vw;
@@ -32,15 +29,6 @@
   }
 
   @media #{$desktop} {
-    grid-template-rows:
-      [nav] 80px
-      [hero] 450px
-      [about] auto
-      [participate] auto
-      [speakers] auto
-      [schedule] auto
-      [resources] 500px
-      [footer] 50px;
     grid-template-columns: 1fr minmax(min-content, 860px) 1fr;
   }
 

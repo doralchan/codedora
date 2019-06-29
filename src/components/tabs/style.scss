@@ -1,0 +1,95 @@
+@import './../../styles/breakpoints';
+
+// Tab Styles
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+
+  @media #{$desktop} {
+    flex-direction: row;
+  }
+
+}
+
+.tabs-container {
+  flex: 4.5;
+}
+
+.tabs-container-content {
+  color: var(--color-black);
+  padding-top: 24px;
+  height: 100%;
+
+  @media #{$desktop} {
+    padding-left: 24px;
+  }
+
+}
+
+.tabs-list {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media #{$desktop} {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+}
+
+.tabs-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+
+  @media #{$tablet} {
+    flex-direction: row;
+  }
+
+}
+
+.item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    height: 80px;
+  }
+
+  @media #{$tablet} {
+    margin-right: 16px;
+  }
+
+}
+
+.item-title {
+  text-align: center;
+
+  @media #{$tablet} {
+    text-align: left;
+  }
+
+}
+
+.deselected {
+  color: var(--color-gray-dark);
+
+  .icon-outline {
+    fill: var(--color-gray-dark);
+  }
+
+  .icon-fill {
+    opacity: 0;
+    fill: var(--color-white);
+  }
+
+}
