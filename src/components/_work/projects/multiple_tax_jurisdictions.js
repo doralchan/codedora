@@ -6,9 +6,7 @@ class MultipleTaxJurisdictions extends Component {
     return (
       <Modal
         title='Multiple Tax Jurisdictions'
-        handleClose={ this.props.closeModal }
-        primaryCTA='Done'
-        >
+        handleClose={ this.props.closeModal }>
         This is supposed to be a modal
       </Modal>
     )

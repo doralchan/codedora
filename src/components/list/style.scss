@@ -18,18 +18,24 @@
   list-style: none;
   box-sizing: border-box;
   border-top: 1px solid var(--color-navy);
-
-  &:last-child {
-    border-bottom: 1px solid var(--color-navy);
-  }
+  border-bottom: 1px solid var(--color-navy);
+  margin-top: -1px;
 
   a {
     display: flex;
     justify-content: space-between;
+    padding: 16px;
+  }
+
+  @media #{$desktop} {
+    &:nth-child(1),
+    &:nth-child(7) {
+      margin-top: 1px;
+    }
   }
 
 }
 
 .list-item-cell {
-  padding: 16px;
+
 }
