@@ -9,7 +9,10 @@ class Blog extends Component {
 
     return (
       <div id='blog' className={ blogClasses }>
-        { this.props.children }
+        <h4>Blog</h4>
+        <div>
+          Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+        </div>
       </div>
     )
   }

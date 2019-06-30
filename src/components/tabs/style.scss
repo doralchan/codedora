@@ -3,93 +3,33 @@
 // Tab Styles
 
 .tabs {
-  display: flex;
-  flex-direction: column;
-
-  @media #{$desktop} {
-    flex-direction: row;
-  }
-
+  display: grid;
+  grid-template-areas:
+    "list container";
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  height: 100%;
 }
 
 .tabs-container {
-  flex: 4.5;
-}
-
-.tabs-container-content {
-  color: var(--color-black);
-  padding-top: 24px;
-  height: 100%;
-
-  @media #{$desktop} {
-    padding-left: 24px;
-  }
-
+  grid-area: container;
+  border: 1px solid var(--color-navy);
 }
 
 .tabs-list {
-  flex: 2;
+  grid-area: list;
   display: flex;
   flex-direction: column;
-  flex-direction: row;
-  justify-content: space-between;
+  align-items: flex-end;
   list-style: none;
   margin: 0;
   padding: 0;
-
-  @media #{$desktop} {
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
 }
 
 .tabs-list-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   cursor: pointer;
-
-  @media #{$tablet} {
-    flex-direction: row;
-  }
-
-}
-
-.item-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  svg {
-    height: 80px;
-  }
-
-  @media #{$tablet} {
-    margin-right: 16px;
-  }
-
-}
-
-.item-title {
-  text-align: center;
-
-  @media #{$tablet} {
-    text-align: left;
-  }
-
 }
 
 .deselected {
-  color: var(--color-gray-dark);
-
-  .icon-outline {
-    fill: var(--color-gray-dark);
-  }
-
-  .icon-fill {
-    opacity: 0;
-    fill: var(--color-white);
-  }
-
+  color: var(--color-gray);
 }

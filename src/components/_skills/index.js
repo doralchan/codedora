@@ -11,7 +11,26 @@ class Skills extends Component {
 
     return (
       <div id='skills' className={ skillsClasses }>
-        TBD
+        <Tabs category='Technical Skills'>
+          <Tabs.Tab title='Tab 1'>
+            <div>1</div>
+          </Tabs.Tab>
+          <Tabs.Tab title='Tab 2'>
+            <div>2</div>
+          </Tabs.Tab>
+          <Tabs.Tab title='Tab 3'>
+            <div>3</div>
+          </Tabs.Tab>
+          <Tabs.Tab title='Tab 4'>
+            <div>4</div>
+          </Tabs.Tab>
+          <Tabs.Tab title='Tab 5'>
+            <div>5</div>
+          </Tabs.Tab>
+          <Tabs.Tab title='Tab 6'>
+            <div>6</div>
+          </Tabs.Tab>
+        </Tabs>
       </div>
     )
   }

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 
+import Button from '../button';
+
 import './style.scss';
 
 class Hero extends Component {
@@ -10,9 +12,11 @@ class Hero extends Component {
     return (
       <div className={ heroClasses }>
         <h1>Why, Hello</h1>
-        <p>
-          I'm Dora, a product and systems designer located in San Francisco. I also dabble in front-end.
-        </p>
+        <p>I'm Dora, a product and systems designer located in San Francisco. I also dabble in front-end.</p>
+        <div>
+          <Button>Show Me</Button>
+          <Button btnType='secondary'>Contact Me</Button>
+        </div>
       </div>
     )
   }

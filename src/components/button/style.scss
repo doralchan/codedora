@@ -4,13 +4,10 @@
 
 .btn {
   display: inline-block;
-  height: 44px;
+  padding: 14px 50px;
   width: 100%;
-  border-radius: 3px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   box-sizing: border-box;
-  line-height: 40px;
-  font-size: 14px;
   text-align: center;
   cursor: pointer;
   user-select: none;
@@ -20,20 +17,20 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: var(--color-black);
+  color: var(--color-white);
 
-  @media #{$desktop} {
-    padding: 0 32px;
+  @media #{$tablet} {
     width: auto;
   }
 
 }
 
 .btn-primary {
-  animation: bgcolor 24s infinite;
+  background-color: var(--color-navy-dark);
 }
 
 .btn-secondary {
   background-color: var(--color-white);
   border-color: var(--color-black);
+  color: var(--color-navy-dark);
 }

@@ -33,7 +33,7 @@ class Button extends Component {
         target={ this.props.blank === true ? '_blank' : null }
         rel='noopener noreferrer' alt=''
       >
-        { this.props.children }
+        <strong>{ this.props.children }</strong>
       </a>
     )
   }

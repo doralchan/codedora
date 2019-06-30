@@ -9,7 +9,10 @@ class Contact extends Component {
 
     return (
       <div id='contact' className={ contactClasses }>
-        { this.props.children }
+        <h4>Contact</h4>
+        <div>
+
+        </div>
       </div>
     )
   }
