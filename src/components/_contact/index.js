@@ -14,7 +14,7 @@ class Contact extends Component {
         <h4 className='contact-title'>Contact</h4>
         <div className='contact-blurb'>
           <p>
-            If you'd like to reach out
+            If you'd like to chat or see more projects, feel free to contact me through any of the methods below. I'm usually available for coffee or tacos.
           </p>
         </div>
         <ul className='contact-list'>
