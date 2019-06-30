@@ -16,9 +16,7 @@ class Hero extends Component {
         <div className='hero-block'>
           <h1 className='hero-block-title'>Why, Hello</h1>
           <div className='hero-block-desc'>
-            <p>
-              I'm Dora, a product and systems designer located in San Francisco. I also dabble in a little bit of front-end.
-            </p>
+            I'm Dora, a product and systems designer located in San Francisco. I also dabble in front-end cause I love it.
           </div>
           <div className='hero-block-ctas'>
             <Button className='block-ctas-btn'>Show Me</Button>
