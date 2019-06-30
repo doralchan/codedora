@@ -8,7 +8,7 @@ class Contact extends Component {
     const contactClasses = classNames('contact', this.props.className);
 
     return (
-      <div className={ contactClasses }>
+      <div id='contact' className={ contactClasses }>
         { this.props.children }
       </div>
     )

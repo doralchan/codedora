@@ -8,7 +8,7 @@ class Blog extends Component {
     const blogClasses = classNames('blog', this.props.className);
 
     return (
-      <div className={ blogClasses }>
+      <div id='blog' className={ blogClasses }>
         { this.props.children }
       </div>
     )

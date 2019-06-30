@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 
+import Tabs from '../tabs';
+
 import './style.scss';
 
 class Skills extends Component {
@@ -8,8 +10,8 @@ class Skills extends Component {
     const skillsClasses = classNames('skills', this.props.className);
 
     return (
-      <div className={ skillsClasses }>
-        { this.props.children }
+      <div id='skills' className={ skillsClasses }>
+        TBD
       </div>
     )
   }

@@ -29,11 +29,19 @@
   }
 
   @media #{$desktop} {
-    grid-template-columns: 1fr minmax(min-content, 892px) 1fr;
+    grid-template-areas:
+      "nav nav nav nav"
+      ". hero hero ."
+      ". intro . ."
+      ". skills skills ."
+      ". work work ."
+      ". blog blog ."
+      ". contact contact .";
+    grid-template-columns: 1fr minmax(min-content, 400px) minmax(min-content, 400px) 1fr;
   }
 
   @media #{$desktopxl} {
-    grid-template-columns: 1fr minmax(min-content, 1100px) 1fr;
+    grid-template-columns: 1fr minmax(min-content, 550px) minmax(min-content, 550px) 1fr;
   }
 
 }

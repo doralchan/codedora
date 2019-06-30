@@ -10,10 +10,6 @@ class Hero extends Component {
     return (
       <div className={ heroClasses }>
         <h1>Why, Hello</h1>
-        <h2>Why, Hello</h2>
-        <h3>Why, Hello</h3>
-        <h4>Why, Hello</h4>
-        <h5>Why, Hello</h5>
         <p>
           I'm Dora, a product and systems designer located in San Francisco. I also dabble in front-end.
         </p>

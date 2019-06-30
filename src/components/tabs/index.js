@@ -8,8 +8,7 @@ class Tabs extends Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
     selected: PropTypes.number,
-    title: PropTypes.string,
-    icon: PropTypes.object
+    title: PropTypes.string
   }
 
   static defaultProps = {
@@ -39,8 +38,7 @@ class Tabs extends Component {
           {
             this.props.children.map((item, index) => (
               <li className={ classNames('tabs-list-item', index === this.state.selected ? 'selected' : 'deselected') } key={ index } onClick={ this.handleChange.bind(this, index) }>
-                <span className='item-icon'>{ item.props.icon }</span>
-                <h5 className='item-title'>{ item.props.title }</h5>
+                <div>{ item.props.title }</div>
               </li>
             ))
           }
