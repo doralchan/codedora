@@ -3,7 +3,6 @@ import { BrowserRouter } from 'react-router-dom';
 
 import Main from './components/main';
 
-import Nav from './components/_nav';
 import Hero from './components/_hero';
 import Intro from './components/_intro';
 import Skills from './components/_skills';
@@ -16,7 +15,6 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Main>
-          <Nav />
           <Hero />
           <Intro />
           <Skills />

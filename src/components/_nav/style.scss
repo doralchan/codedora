@@ -3,16 +3,8 @@
 // Nav Styles
 
 .nav {
-  grid-area: nav;
   display: flex;
   align-items: center;
-
-  @media #{$desktopxl} {
-    max-width: 1100px;
-    width: 100%;
-    margin: 0 auto;
-  }
-
 }
 
 .nav-logo {
@@ -37,9 +29,10 @@
 .nav-list-item {
   cursor: pointer;
   text-align: center;
+  padding: 16px;
 
   @media #{$tablet} {
-    padding-left: 24px;
+    padding: 24px;
   }
 
 }

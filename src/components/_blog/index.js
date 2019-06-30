@@ -11,18 +11,23 @@ class Blog extends Component {
 
     return (
       <div id='blog' className={ blogClasses }>
-        <Post title='Blog Entry 1'>
-          Title
-        </Post>
-        <Post title='Blog Entry 2'>
-          Title
-        </Post>
-        <Post title='Blog Entry 3'>
-          Title
-        </Post>
-        <Post title='Blog Entry 4'>
-          Title
-        </Post>
+        <div className='blog-posts'>
+          <Post title='Blog Entry 1'>
+            Title
+          </Post>
+          <Post title='Blog Entry 2'>
+            Title
+          </Post>
+          <Post title='Blog Entry 3'>
+            Title
+          </Post>
+          <Post title='Blog Entry 4'>
+            Title
+          </Post>
+        </div>
+        <div className='blog-blurb'>
+          I'm not much of a writer.
+        </div>
       </div>
     )
   }

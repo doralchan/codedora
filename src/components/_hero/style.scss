@@ -8,9 +8,19 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
-.hero-desc {
+.hero-block-desc {
   max-width: 400px;
   margin-bottom: 24px;
+}
+
+.block-ctas-btn {
+
+  @media #{$tablet} {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
 }

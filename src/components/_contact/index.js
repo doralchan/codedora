@@ -11,7 +11,12 @@ class Contact extends Component {
 
     return (
       <div id='contact' className={ contactClasses }>
-        <h4 className='margin-bottom-8px'>Contact</h4>
+        <h4 className='contact-title'>Contact</h4>
+        <div className='contact-blurb'>
+          <p>
+            If you'd like to reach out
+          </p>
+        </div>
         <ul className='contact-list'>
           <li><Link to=''>LinkedIn</Link></li>
           <li><Link to=''>Dribble</Link></li>

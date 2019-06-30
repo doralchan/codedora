@@ -5,7 +5,6 @@
 .main {
   display: grid;
   grid-template-areas:
-    ". nav ."
     ". hero ."
     ". intro ."
     ". skills ."
@@ -13,8 +12,7 @@
     ". blog ."
     ". contact .";
   grid-template-rows:
-    [nav] 80px
-    [hero] auto
+    [hero] 70vh
     [intro] auto
     [skills] auto
     [work] auto
@@ -22,13 +20,12 @@
     [contact] 200px;
   grid-template-columns: 0 12fr 0;
   grid-column-gap: 40px;
-  grid-row-gap: 60px;
+  grid-row-gap: 40px;
   width: 100vw;
   min-height: 100vh;
 
   @media #{$desktop} {
     grid-template-areas:
-      ". nav nav ."
       ". hero hero ."
       ". intro . ."
       ". skills skills ."
@@ -36,18 +33,18 @@
       ". . blog ."
       ". contact . .";
     grid-template-rows:
-      [nav] 80px
-      [hero] auto
+      [hero] 88vh
       [intro] auto
       [skills] auto
       [work] auto
       [blog] auto
-      [contact] 250px;
-    grid-template-columns: 1fr minmax(min-content, 450px) minmax(min-content, 450px) 1fr;
+      [contact] 40vh;
+    grid-template-columns: 1fr minmax(min-content, 500px) minmax(min-content, 500px) 1fr;
+    grid-row-gap: 100px;
   }
 
   @media #{$desktopxl} {
-    grid-template-columns: 1fr minmax(min-content, 550px) minmax(min-content, 550px) 1fr;
+    grid-template-columns: 1fr minmax(min-content, 600px) minmax(min-content, 600px) 1fr;
   }
 
 }

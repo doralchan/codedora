@@ -18,7 +18,13 @@ class Skills extends Component {
           <Tabs.Tab title='User Research'>
             <div></div>
           </Tabs.Tab>
+          <Tabs.Tab title='Illustration'>
+            <div></div>
+          </Tabs.Tab>
           <Tabs.Tab title='Visual Design'>
+            <div></div>
+          </Tabs.Tab>
+          <Tabs.Tab title='Content Management'>
             <div></div>
           </Tabs.Tab>
           <Tabs.Tab title='User Interface'>
