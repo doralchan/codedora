@@ -25,15 +25,15 @@
   min-height: 100vh;
 
   @media #{$tablet} {
-    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-columns: 1fr 8fr 1fr;
   }
 
   @media #{$desktop} {
-    grid-template-columns: 1fr minmax(min-content, 860px) 1fr;
+    grid-template-columns: 1fr minmax(min-content, 892px) 1fr;
   }
 
   @media #{$desktopxl} {
-    grid-template-columns: 1fr minmax(min-content, 1000px) 1fr;
+    grid-template-columns: 1fr minmax(min-content, 1100px) 1fr;
   }
 
 }

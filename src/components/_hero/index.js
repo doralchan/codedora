@@ -14,7 +14,7 @@ class Hero extends Component {
         <h3>Why, Hello</h3>
         <h4>Why, Hello</h4>
         <h5>Why, Hello</h5>
-        <h6>Why, Hello</h6>
+        <p>I'm Dora.</p>
       </div>
     )
   }

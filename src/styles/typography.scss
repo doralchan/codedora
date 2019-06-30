@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:300,400,600&display=swap');
 @import './breakpoints';
 
 // Typography Styles
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Abril Fatface', cursive;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -20,24 +21,6 @@ h1 {
 }
 
 h2 {
-  font-size: 3.815em;
-
-  @media #{$desktop} {
-    font-size: 4.768em;
-  }
-
-}
-
-h3 {
-  font-size: 3.052em;
-
-  @media #{$desktop} {
-    font-size: 3.815em;
-  }
-
-}
-
-h4 {
   font-size: 2.441em;
 
   @media #{$desktop} {
@@ -46,7 +29,7 @@ h4 {
 
 }
 
-h5 {
+h3 {
   font-size: 1.953em;
 
   @media #{$desktop} {
@@ -55,6 +38,41 @@ h5 {
 
 }
 
+h4 {
+  font-size: 1.563em;
+
+  @media #{$desktop} {
+    font-size: 1.953em;
+  }
+
+}
+
+h5 {
+  font-size: 1.25em;
+
+  @media #{$desktop} {
+    font-size: 1.563em;
+  }
+
+}
+
+h6 {
+  font-size: 1em;
+
+  @media #{$desktop} {
+    font-size: 1.25em;
+  }
+
+}
+
+strong {
+  font-weight: 600;
+}
+
 p {
   font-size: 1em;
+}
+
+small {
+  font-weight: 300;
 }
