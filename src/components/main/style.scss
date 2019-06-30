@@ -14,12 +14,12 @@
     ". contact .";
   grid-template-rows:
     [nav] 80px
-    [hero] 1fr
-    [intro] 1fr
-    [skills] 1fr
+    [hero] auto
+    [intro] auto
+    [skills] auto
     [work] auto
-    [blog] 2fr
-    [contact] 1fr;
+    [blog] auto
+    [contact] 200px;
   grid-template-columns: 0 12fr 0;
   grid-column-gap: 40px;
   grid-row-gap: 60px;
@@ -35,6 +35,14 @@
       ". work work ."
       ". . blog ."
       ". contact . .";
+    grid-template-rows:
+      [nav] 80px
+      [hero] auto
+      [intro] auto
+      [skills] auto
+      [work] auto
+      [blog] auto
+      [contact] 250px;
     grid-template-columns: 1fr minmax(min-content, 450px) minmax(min-content, 450px) 1fr;
   }
 

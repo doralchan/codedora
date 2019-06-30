@@ -27,9 +27,7 @@ class Work extends Component {
 
     return (
       <div id='work' className={ workClasses }>
-        <div className='margin-bottom-8px'>
-          <h4>Most Recent Work</h4>
-        </div>
+        <h4 className='margin-bottom-16px'>Most Recent Work</h4>
         <List>
           {
             Object

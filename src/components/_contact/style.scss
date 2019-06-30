@@ -5,3 +5,9 @@
 .contact {
   grid-area: contact;
 }
+
+.contact-list {
+  padding: 0;
+  list-style: none;
+  column-count: 4;
+}

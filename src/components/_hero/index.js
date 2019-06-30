@@ -12,10 +12,12 @@ class Hero extends Component {
     return (
       <div className={ heroClasses }>
         <h1>Why, Hello</h1>
-        <p>I'm Dora, a product and systems designer located in San Francisco. I also dabble in front-end.</p>
+        <div className='margin-bottom-24px'>
+          <p>I'm Dora, a product and systems designer located in San Francisco. I also dabble in front-end.</p>
+        </div>
         <div>
-          <Button>Show Me</Button>
-          <Button btnType='secondary'>Contact Me</Button>
+          <Button className='margin-right-8px'>Show Me</Button>
+          <Button btnType='secondary' className='margin-left-8px'>Contact Me</Button>
         </div>
       </div>
     )

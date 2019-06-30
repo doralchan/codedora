@@ -7,7 +7,8 @@ import './style.scss';
 class Post extends Component {
   static propTypes = {
     children:   PropTypes.node,
-    className:  PropTypes.string
+    className:  PropTypes.string,
+    title: PropTypes.string
   }
 
   render() {
@@ -15,7 +16,8 @@ class Post extends Component {
 
     return (
       <div className={ postClasses }>
-        { this.props.children }
+        <h4 className='post-title'>{ this.props.title }</h4>
+        <div className='post-image'>{ this.props.children }</div>
       </div>
     )
   }

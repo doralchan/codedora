@@ -9,8 +9,8 @@ class Intro extends Component {
 
     return (
       <div id='intro' className={ introClasses }>
-        <h4>A Quick Intro</h4>
-        <div className='margin-top-8px'>
+        <h4 className='margin-bottom-8px'>A Quick Intro</h4>
+        <div>
           <p>
             I wouldn't consider myself an expert in much besides drinking iced coffee. What I am is an enthusiastic tinkerer with a good chunk of design experience. I experiment with kooky theories and obsessively commit to projects. I succeed. I fail. The point is, I learn, and learn quickly.
           </p>
