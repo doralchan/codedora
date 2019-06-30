@@ -11,3 +11,26 @@ body {
   font-weight: 400;
   font-size: 15px;
 }
+
+.react-router-modal__modal-open {
+  overflow: hidden;
+}
+
+.react-router-modal__container {
+  position: fixed;
+  z-index: 1000;
+}
+
+.react-router-modal__wrapper {
+  position: absolute;
+  z-index: 1;
+}
+
+.react-router-modal__backdrop {
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}

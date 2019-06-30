@@ -1,0 +1,32 @@
+// Image Styles
+
+.img {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.img-xs {
+  height: 16px;
+  width: 16px;
+}
+
+.img-sm {
+  height: 24px;
+  width: 24px;
+}
+
+.img-md {
+  height: 32px;
+  width: 32px;
+}
+
+.img-lg {
+  height: 40px;
+  width: 40px;
+}
+
+.img-xl {
+  height: 70px;
+  width: 70px;
+}

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
+import { Link } from 'react-router-dom';
+
 import './style.scss';
 
 class List extends Component {
@@ -27,16 +29,18 @@ List.Item = class Item extends Component {
   }
 
   render() {
-    const { project, company, year } = this.props.details;
+    const { project, company, year, link } = this.props.details;
 
     return (
       <li className='list-item'>
-        <div className='list-item-cell'>
-          <strong>{ project }</strong>
-        </div>
-        <div className='list-item-cell'>
-          <small>{ company } { year }</small>
-        </div>
+        <Link to={ link }>
+          <div className='list-item-cell'>
+            <strong>{ project }</strong>
+          </div>
+          <div className='list-item-cell'>
+            <small>{ company } { year }</small>
+          </div>
+        </Link>
       </li>
     )
   }
