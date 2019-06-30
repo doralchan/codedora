@@ -11,11 +11,18 @@ class Blog extends Component {
 
     return (
       <div id='blog' className={ blogClasses }>
-        <h4 className='margin-bottom-8px'>Blog</h4>
-        <div>
-          <Post title=''>TBD</Post>
-          Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
-        </div>
+        <Post title='Blog Entry 1'>
+          Title
+        </Post>
+        <Post title='Blog Entry 2'>
+          Title
+        </Post>
+        <Post title='Blog Entry 3'>
+          Title
+        </Post>
+        <Post title='Blog Entry 4'>
+          Title
+        </Post>
       </div>
     )
   }

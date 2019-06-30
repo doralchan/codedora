@@ -1,0 +1,19 @@
+@import './../../styles/breakpoints';
+
+// Post Styles
+
+.post {
+  width: 100%;
+}
+
+.post-title {
+  margin-bottom: 8px;
+}
+
+.post-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--color-navy-dark);
+  padding: 50px;
+}

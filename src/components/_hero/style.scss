@@ -4,4 +4,13 @@
 
 .hero {
   grid-area: hero;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-desc {
+  max-width: 400px;
+  margin-bottom: 24px;
 }
