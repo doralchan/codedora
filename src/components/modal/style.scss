@@ -26,10 +26,9 @@
   justify-content: center;
   align-items: center;
   background-color: var(--color-white);
-  padding: 16px 24px;
+  padding: 16px 40px;
   border-bottom: 1px solid var(--color-gray-light);
-  box-sizing: border-box;
-  min-height: 72px;
+  max-height: 72px;
   z-index: 1;
   position: relative;
 }
@@ -37,16 +36,33 @@
 .modal-header-close {
   cursor: pointer;
   position: absolute;
-  right: 24px;
+  right: 32px;
 
 }
 
 .modal-body {
-  padding: 16px 24px;
+  padding: 32px 40px;
   overflow: scroll;
   height: 100%;
 }
 
 .modal-body-detail {
   margin-bottom: 16px;
+}
+
+.modal-body-image {
+  display: flex;
+  justify-content: center;
+
+  img {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 100%;
+
+    @media #{$tablet} {
+      max-width: 700px;
+    }
+
+  }
+
 }

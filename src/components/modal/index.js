@@ -51,4 +51,20 @@ Modal.Detail = class Detail extends Component {
 
 }
 
+Modal.Image = class Image extends Component {
+  static propTypes = {
+    imgSrc: PropTypes.string,
+    children: PropTypes.node
+  }
+
+  render() {
+    return (
+      <div className='modal-body-image'>
+        <img src={ this.props.imgSrc } alt='' />
+      </div>
+    )
+  }
+
+}
+
 export default Modal;
