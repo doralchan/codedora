@@ -39,12 +39,12 @@
       [work] auto
       [blog] auto
       [contact] 40vh;
-    grid-template-columns: 1fr minmax(min-content, 480px) minmax(min-content, 480px) 1fr;
+    grid-template-columns: 1fr minmax(min-content, 460px) minmax(min-content, 460px) 1fr;
     grid-row-gap: 100px;
   }
 
   @media #{$desktopxl} {
-    grid-template-columns: 1fr minmax(min-content, 580px) minmax(min-content, 580px) 1fr;
+    grid-template-columns: 1fr minmax(min-content, 560px) minmax(min-content, 560px) 1fr;
   }
 
 }

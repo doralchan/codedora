@@ -14,16 +14,16 @@ class Blog extends Component {
       <div id='blog' className={ blogClasses }>
         <img src={ Profile4 } className='blog-profile' alt='' />
         <Post title='Blog Entry 1'>
-          Title
+          Coming Soon
         </Post>
         <Post title='Blog Entry 2'>
-          Title
+          Coming Soon
         </Post>
         <Post title='Blog Entry 3'>
-          Title
+          Coming Soon
         </Post>
         <Post title='Blog Entry 4'>
-          Title
+          Coming Soon
         </Post>
       </div>
     )
