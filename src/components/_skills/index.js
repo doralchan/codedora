@@ -3,6 +3,9 @@ import classNames from 'classnames';
 
 import Tabs from '../tabs';
 
+import SpotPlant from '../../assets/spot-illo-plant.svg';
+import Profile3 from '../../assets/profile_3.svg';
+
 import './style.scss';
 
 class Skills extends Component {
@@ -11,6 +14,8 @@ class Skills extends Component {
 
     return (
       <div id='skills' className={ skillsClasses }>
+        <img src={ SpotPlant } className='skills-plant' alt='' />
+        <img src={ Profile3 } className='skills-profile' alt='' />
         <Tabs category='Technical Skills'>
           <Tabs.Tab title='User Experience'>
             <div></div>

@@ -8,5 +8,14 @@
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
-  margin-bottom: 24px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.blog-profile {
+  position: absolute;
+  width: 380px;
+  left: -300px;
+  bottom: -50px;
 }

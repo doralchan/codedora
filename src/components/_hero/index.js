@@ -4,6 +4,9 @@ import classNames from 'classnames';
 import Button from '../button';
 import Nav from '../_nav';
 
+import Profile1 from '../../assets/profile_1.svg';
+import Profile2 from '../../assets/profile_2.svg';
+
 import './style.scss';
 
 class Hero extends Component {
@@ -12,6 +15,8 @@ class Hero extends Component {
 
     return (
       <div className={ heroClasses }>
+        <img src={ Profile1 } className='hero-profile-1' alt='' />
+        <img src={ Profile2 } className='hero-profile-2' alt='' />
         <Nav className='hero-nav' />
         <div className='hero-block'>
           <h1 className='hero-block-title'>Why, Hello</h1>

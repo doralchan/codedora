@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 .hero-block {
@@ -16,6 +17,7 @@
   align-items: center;
   justify-content: center;
   flex: 1;
+  z-index: 1;
 }
 
 .hero-block-title {
@@ -34,4 +36,20 @@
     margin-right: 8px;
   }
 
+}
+
+.hero-profile-1,
+.hero-profile-2 {
+  position: absolute;
+  bottom: 120px;
+}
+
+.hero-profile-1 {
+  width: 490px;
+  left: 0;
+}
+
+.hero-profile-2 {
+  width: 320px;
+  right: 140px;
 }

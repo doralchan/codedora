@@ -4,6 +4,7 @@
 
 .contact {
   grid-area: contact;
+  position: relative;
 }
 
 .contact-title {
@@ -18,4 +19,11 @@
   padding: 0;
   list-style: none;
   column-count: 4;
+}
+
+.contact-coffee {
+  width: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 100px;
 }
