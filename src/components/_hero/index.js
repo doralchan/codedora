@@ -15,9 +15,9 @@ class Hero extends Component {
 
     return (
       <div className={ heroClasses }>
+        <Nav className='hero-nav' />
         <img src={ Profile1 } className='hero-profile-1' alt='' />
         <img src={ Profile2 } className='hero-profile-2' alt='' />
-        <Nav className='hero-nav' />
         <div className='hero-block'>
           <h1 className='hero-block-title'>Why, Hello</h1>
           <div className='hero-block-desc'>
@@ -25,7 +25,7 @@ class Hero extends Component {
           </div>
           <div className='hero-block-ctas'>
             <Button className='block-ctas-btn'>Show Me</Button>
-            <Button btnType='secondary' className='block-ctas-btn'>Contact Me</Button>
+            <Button className='block-ctas-btn' btnType='secondary'>Contact Me</Button>
           </div>
         </div>
       </div>

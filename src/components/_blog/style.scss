@@ -4,18 +4,35 @@
 
 .blog {
   grid-area: blog;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
-  margin-top: 80px;
-  margin-bottom: 60px;
   position: relative;
+
+  @media #{$tablet} {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+
 }
 
 .blog-profile {
-  position: absolute;
-  width: 360px;
-  left: -250px;
-  bottom: -50px;
+  width: 180px;
+  margin-bottom: 30px;
+
+  @media #{$tablet} {
+    margin-bottom: 0;
+    position: absolute;
+    width: 300px;
+    left: -200px;
+    bottom: 0;
+  }
+
+  @media #{$desktopxl} {
+    width: 360px;
+    left: -250px;
+    bottom: -50px;
+  }
+
 }

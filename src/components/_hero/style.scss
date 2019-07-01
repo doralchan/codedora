@@ -40,16 +40,46 @@
 
 .hero-profile-1,
 .hero-profile-2 {
-  position: absolute;
-  bottom: 120px;
+
+  @media #{$tablet} {
+    position: absolute;
+    bottom: 100px;
+  }
+
+  @media #{$desktopxl} {
+    bottom: 120px;
+  }
+
 }
 
 .hero-profile-1 {
-  width: 490px;
-  left: 0;
+  width: 240px;
+
+  @media #{$tablet} {
+    width: 400px;
+    left: -20px;
+  }
+
+  @media #{$desktopxl} {
+    width: 480px;
+    left: 0;
+  }
+
 }
 
 .hero-profile-2 {
-  width: 320px;
-  right: 140px;
+  display: none;
+  width: 150px;
+
+  @media #{$tablet} {
+    display: block;
+    width: 270px;
+    right: 100px;
+  }
+
+  @media #{$desktopxl} {
+    width: 320px;
+    right: 160px;
+  }
+
 }

@@ -11,17 +11,39 @@
 
 .skills-plant,
 .skills-profile {
-  position: absolute;
+
+  @media #{$tablet} {
+    position: absolute;
+  }
+
 }
 
 .skills-plant {
-  width: 160px;
-  left: 110px;
-  bottom: 100px;
+  width: 100px;
+
+  @media #{$tablet} {
+    width: 120px;
+    left: 110px;
+    bottom: 100px;
+  }
+
+  @media #{$desktopxl} {
+    width: 160px;
+  }
+
 }
 
 .skills-profile {
-  width: 170px;
-  left: 0;
-  bottom: 90px;
+  width: 100px;
+
+  @media #{$tablet} {
+    width: 140px;
+    left: 0;
+    bottom: 90px;
+  }
+
+  @media #{$desktopxl} {
+    width: 160px;
+  }
+
 }

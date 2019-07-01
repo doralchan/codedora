@@ -5,6 +5,8 @@
 .contact {
   grid-area: contact;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-title {
@@ -12,18 +14,29 @@
 }
 
 .contact-blurb {
-  margin-bottom: 24px;
+
 }
 
 .contact-list {
   padding: 0;
   list-style: none;
   column-count: 4;
+  margin-bottom: 30px;
 }
 
 .contact-coffee {
+  align-self: flex-end;
+  margin-bottom: 0;
   width: 100px;
-  position: absolute;
-  right: -60px;
-  bottom: 100px;
+
+  @media #{$tablet} {
+    position: absolute;
+    right: -400px;
+    bottom: 100px;
+  }
+
+  @media #{$desktopxl} {
+    right: -600px;
+  }
+
 }

@@ -12,19 +12,19 @@
     ". blog ."
     ". contact .";
   grid-template-rows:
-    [hero] 80vh
+    [hero] auto
     [intro] auto
     [skills] auto
     [work] auto
     [blog] auto
-    [contact] 200px;
+    [contact] 400px;
   grid-template-columns: 0 12fr 0;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
   width: 100vw;
   min-height: 100vh;
 
-  @media #{$desktop} {
+  @media #{$tablet} {
     grid-template-areas:
       ". hero hero ."
       ". intro . ."
@@ -33,18 +33,25 @@
       ". . blog ."
       ". contact . .";
     grid-template-rows:
-      [hero] 90vh
+      [hero] 600px
       [intro] auto
       [skills] auto
       [work] auto
       [blog] auto
-      [contact] 40vh;
+      [contact] 400px;
     grid-template-columns: 1fr minmax(min-content, 460px) minmax(min-content, 460px) 1fr;
     grid-row-gap: 100px;
   }
 
   @media #{$desktopxl} {
     grid-template-columns: 1fr minmax(min-content, 560px) minmax(min-content, 560px) 1fr;
+    grid-template-rows:
+      [hero] 700px
+      [intro] auto
+      [skills] auto
+      [work] auto
+      [blog] auto
+      [contact] 40vh;
   }
 
 }
