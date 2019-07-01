@@ -44,7 +44,7 @@ Modal.Detail = class Detail extends Component {
     return (
       <div className='modal-body-detail'>
         <div><strong>{ this.props.subtitle }</strong></div>
-        <div><small>{ this.props.children }</small></div>
+        <div>{ this.props.children }</div>
       </div>
     )
   }
