@@ -15,6 +15,13 @@
   border: 1px solid var(--color-navy-dark);
 }
 
+.tabs-container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .tabs-list {
   grid-area: list;
   display: flex;

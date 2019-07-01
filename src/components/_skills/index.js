@@ -18,25 +18,25 @@ class Skills extends Component {
         <img src={ Profile3 } className='skills-profile' alt='' />
         <Tabs category='Technical Skills'>
           <Tabs.Tab title='User Experience'>
-            <div></div>
+            UX Coming Soon
           </Tabs.Tab>
           <Tabs.Tab title='User Research'>
-            <div></div>
+            UR Coming Soon
           </Tabs.Tab>
           <Tabs.Tab title='Illustration'>
-            <div></div>
+            Illos Coming Soon
           </Tabs.Tab>
           <Tabs.Tab title='Visual Design'>
-            <div></div>
+            Visuals Coming Soon
           </Tabs.Tab>
           <Tabs.Tab title='Content Management'>
-            <div></div>
+            CMS Coming Soon
           </Tabs.Tab>
           <Tabs.Tab title='User Interface'>
-            <div></div>
+            UI Coming Soon
           </Tabs.Tab>
           <Tabs.Tab title='Front End Dev'>
-            <div></div>
+            CSS/JS Coming Soon
           </Tabs.Tab>
         </Tabs>
       </div>
