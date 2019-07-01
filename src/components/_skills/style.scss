@@ -5,8 +5,8 @@
 .skills {
   grid-area: skills;
   position: relative;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .skills-plant,
@@ -16,12 +16,12 @@
 
 .skills-plant {
   width: 180px;
-  right: 0;
-  bottom: 240px;
+  left: 110px;
+  bottom: 100px;
 }
 
 .skills-profile {
   width: 170px;
-  bottom: -10px;;
   left: 0;
+  bottom: 90px;
 }

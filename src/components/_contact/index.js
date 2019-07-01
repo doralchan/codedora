@@ -12,7 +12,6 @@ class Contact extends Component {
 
     return (
       <div id='contact' className={ contactClasses }>
-        <img src={ SpotCoffee } className='contact-coffee' alt='' />
         <h4 className='contact-title'>Contact</h4>
         <div className='contact-blurb'>
           <p>
@@ -37,6 +36,7 @@ class Contact extends Component {
           <li><Link to=''>LinkedIn</Link></li>
           <li><Link to=''>LinkedIn</Link></li>
         </ul>
+        <img src={ SpotCoffee } className='contact-coffee' alt='' />
       </div>
     )
   }
