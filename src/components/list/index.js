@@ -35,7 +35,7 @@ List.Item = class Item extends Component {
       <li className='list-item'>
         <Link to={ link }>
           <div className='list-item-cell'>
-            <strong>{ project }</strong>
+            { project }
           </div>
           <div className='list-item-cell'>
             <small>{ company } { year }</small>

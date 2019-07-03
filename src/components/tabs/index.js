@@ -36,7 +36,7 @@ class Tabs extends Component {
     return (
       <div className={ tabsClasses }>
         <ul className='tabs-list'>
-          <h4 className='margin-bottom-8px'>{ this.props.category }</h4>
+          <h4 className='margin-bottom-16px'>{ this.props.category }</h4>
           {
             this.props.children.map((item, index) => (
               <li className={ classNames('tabs-list-item', index === this.state.selected ? 'selected' : 'deselected') } key={ index } onClick={ this.handleChange.bind(this, index) }>

@@ -6,9 +6,6 @@ import { BrowserRouter } from 'react-router-dom';
 
 import List from '../list';
 
-import MultipleTaxJurisdictions from './projects/multiple_tax_jurisdictions';
-import TimecardIntegrations from './projects/timecard_integrations';
-
 import projects from './projects.json';
 import './style.scss';
 
@@ -42,8 +39,6 @@ class Work extends Component {
               .map(key => <List.Item key={key} index={key} details={this.state.posts[key]} />)
             }
           </List>
-          <ModalRoute component={ MultipleTaxJurisdictions } path='/multiple_tax_jurisdictions' parentPath='/' />
-          <ModalRoute component={ TimecardIntegrations } path='/timecard_integrations' parentPath='/' />
           <ModalContainer />
         </div>
       </BrowserRouter>

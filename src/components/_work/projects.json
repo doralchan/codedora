@@ -1,8 +1,8 @@
 [{
-  "project": "Multiple Tax Juridictions",
+  "project": "Invalid Registration",
   "company": "Square",
   "year": "2019",
-  "link": "/multiple_tax_jurisdictions"
+  "link": "/invalid_registration"
 },
 {
   "project": "Timecard Integrations",
@@ -17,16 +17,16 @@
   "link": "/square_design_summit"
 },
 {
-  "project": "Year End",
+  "project": "Year End Guide",
   "company": "Square",
   "year": "2018",
-  "link": "/year_end"
+  "link": "/yearend_guide"
 },
 {
-  "project": "Benefits",
+  "project": "Notifications",
   "company": "Square",
   "year": "2018",
-  "link": "/benefits"
+  "link": "/notifcations"
 },
 {
   "project": "Onboarding",
@@ -35,16 +35,16 @@
   "link": "/onboarding"
 },
 {
-  "project": "The Guide",
-  "company": "Gusto",
-  "year": "2017",
-  "link": "/guide"
-},
-{
   "project": "Chat",
   "company": "Gusto",
   "year": "2016",
   "link": "/chat"
+},
+{
+  "project": "The Guide",
+  "company": "Gusto",
+  "year": "2016",
+  "link": "/guide"
 },
 {
   "project": "Garnishments",
