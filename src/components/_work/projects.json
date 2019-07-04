@@ -1,72 +1,72 @@
 [{
-  "project": "Invalid Registration",
+  "project": "Business Setup",
   "company": "Square",
   "year": "2019",
-  "link": "/invalid_registration"
+  "link": "/project_business_setup"
 },
 {
   "project": "Timecard Integrations",
   "company": "Square",
   "year": "2019",
-  "link": "/timecard_integrations"
+  "link": "/project_timecard_integrations"
 },
 {
   "project": "Square Design Summit",
   "company": "Square",
   "year": "2019",
-  "link": "/square_design_summit"
+  "link": "/project_square_design_summit"
 },
 {
   "project": "Year End Guide",
   "company": "Square",
   "year": "2018",
-  "link": "/yearend_guide"
+  "link": "/project_yearend_guide"
 },
 {
   "project": "Notifications",
   "company": "Square",
   "year": "2018",
-  "link": "/notifcations"
+  "link": "/project_notifcations"
 },
 {
   "project": "Onboarding",
   "company": "Gusto",
   "year": "2017",
-  "link": "/onboarding"
+  "link": "/project_onboarding"
 },
 {
   "project": "Chat",
   "company": "Gusto",
   "year": "2016",
-  "link": "/chat"
+  "link": "/project_chat"
 },
 {
   "project": "The Guide",
   "company": "Gusto",
   "year": "2016",
-  "link": "/guide"
+  "link": "/project_guide"
 },
 {
   "project": "Garnishments",
   "company": "Gusto",
   "year": "2016",
-  "link": "/garnishments"
+  "link": "/project_garnishments"
 },
 {
   "project": "Dashboard",
   "company": "Auditfile",
   "year": "2016",
-  "link": "/dashboard"
+  "link": "/project_dashboard"
 },
 {
   "project": "Box Hackathon",
   "company": "Freelance",
   "year": "2015",
-  "link": "/box_hackathon"
+  "link": "/project_box_hackathon"
 },
 {
   "project": "Dinobi",
   "company": "Freelance",
   "year": "2015",
-  "link": "/dinobi"
+  "link": "/project_dinobi"
 }]

@@ -4,7 +4,6 @@ import { BrowserRouter } from 'react-router-dom';
 import Main from './components/main';
 
 import Hero from './components/_hero';
-import Intro from './components/_intro';
 import Skills from './components/_skills';
 import Work from './components/_work';
 import Blog from './components/_blog';
@@ -16,7 +15,6 @@ class App extends Component {
       <BrowserRouter>
         <Main>
           <Hero />
-          <Intro />
           <Skills />
           <Work />
           <Blog />

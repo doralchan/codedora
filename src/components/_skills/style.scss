@@ -5,45 +5,56 @@
 .skills {
   grid-area: skills;
   position: relative;
-  padding-top: 50px;
-  padding-bottom: 100px;
 }
 
-.skills-plant,
-.skills-profile {
+.skills-cards {
+  display: flex;
+  justify-content: space-between;
+}
 
-  @media #{$tablet} {
+.skills-profile {
+  width: 130px;
+}
+
+.skills-card {
+
+  .skills-card-title {
+
+  }
+
+  .skills-card-icon {
+    transition: all 1s ease-in-out;
+    transform-origin: 50% 50%;
+    transform: rotate(0deg);
+  }
+
+  &:hover {
+
+    .skills-card-icon {
+      transform: rotate(360deg);
+    }
+
+  }
+
+}
+
+.skills-background {
+  background-color: var(--color-gray-light);
+  height: 250px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  z-index: -1;
+
+  &:after {
+    display: inline-block;
+    content: '';
+    border-style: solid;
+    border-width: 150px 50vw 0 50vw;
+    border-color: var(--color-gray-light) transparent transparent transparent;
     position: absolute;
+    bottom: -150px;
   }
-
-}
-
-.skills-plant {
-  width: 100px;
-
-  @media #{$tablet} {
-    width: 120px;
-    left: 110px;
-    bottom: 100px;
-  }
-
-  @media #{$desktopxl} {
-    width: 160px;
-  }
-
-}
-
-.skills-profile {
-  width: 100px;
-
-  @media #{$tablet} {
-    width: 140px;
-    left: 0;
-    bottom: 90px;
-  }
-
-  @media #{$desktopxl} {
-    width: 160px;
-  }
-
 }

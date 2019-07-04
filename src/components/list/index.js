@@ -1,49 +1,71 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import { Link } from 'react-router-dom';
-
 import './style.scss';
 
-class List extends Component {
+class List extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
-    className:  PropTypes.string
+    className: PropTypes.string
+  };
+
+  listClasses() {
+    return classNames(
+      'list',
+      this.props.className
+    )
   }
 
   render() {
-    const listClasses = classNames('list', this.props.className);
-
     return (
-      <ul className={ listClasses }>
+      <ul className={ this.listClasses() }>
         { this.props.children }
       </ul>
-    )
+    );
   }
 }
 
-List.Item = class Item extends Component {
+List.Item = class List extends React.Component {
   static propTypes = {
-    children: PropTypes.node
+    className: PropTypes.string,
+    fill: PropTypes.number
+  };
+
+  listItemClasses() {
+    return classNames(
+      'list-item',
+      this.props.className
+    )
+  }
+
+  dotClasses() {
+    return classNames(
+      'dot-set',
+      `dot-set-${this.props.fill}`
+    )
+  }
+
+  renderDots() {
+    return (
+      <div className={ this.dotClasses() }>
+        <div className='dot' />
+        <div className='dot' />
+        <div className='dot' />
+        <div className='dot' />
+        <div className='dot' />
+      </div>
+    )
   }
 
   render() {
-    const { project, company, year, link } = this.props.details;
-
     return (
-      <li className='list-item'>
-        <Link to={ link }>
-          <div className='list-item-cell'>
-            { project }
-          </div>
-          <div className='list-item-cell'>
-            <small>{ company } { year }</small>
-          </div>
-        </Link>
+      <li className={ this.listItemClasses() }>
+        { this.props.children }
       </li>
     )
   }
+
 }
 
-export default List;
+export default List

@@ -11,8 +11,6 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
-    margin-top: 80px;
-    margin-bottom: 60px;
   }
 
 }
@@ -22,7 +20,6 @@
   margin-bottom: 30px;
 
   @media #{$tablet} {
-    margin-bottom: 0;
     position: absolute;
     width: 300px;
     left: -200px;

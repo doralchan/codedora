@@ -73,4 +73,9 @@ strong {
 p {
   font-size: 1em;
   margin-top: 0;
+
+  &:last-child {
+    margin: 0;
+  }
+
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import Image from '../image';
+import Icon from '../icon';
 import { ReactComponent as Close } from '../../assets/icon-close.svg';
 
 import './style.scss';
@@ -20,12 +20,8 @@ class Modal extends Component {
 
     return (
       <div className={ modalClasses }>
-        <div className='modal-header'>
-          <h4>{ this.props.title }</h4>
-          <div className='modal-header-close' onClick={ this.props.handleClose }>
-            <Image imgSize='sm'><Close /></Image>
-          </div>
-        </div>
+        <div className='modal-close' onClick={ this.props.handleClose }>Go Back</div>
+        <h4>{ this.props.title }</h4>
         <div className='modal-body'>
           { this.props.children }
         </div>

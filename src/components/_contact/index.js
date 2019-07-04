@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 
 import Link from '../link';
-import SpotCoffee from '../../assets/spot-illo-coffee.svg';
 
 import './style.scss';
 
@@ -36,7 +35,6 @@ class Contact extends Component {
           <li><Link to=''>LinkedIn</Link></li>
           <li><Link to=''>LinkedIn</Link></li>
         </ul>
-        <img src={ SpotCoffee } className='contact-coffee' alt='' />
       </div>
     )
   }

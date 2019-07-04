@@ -1,41 +1,68 @@
-@import './../../styles/breakpoints';
-
-// List Styles
+// List Style
 
 .list {
-  width: 100%;
-  padding: 0;
+  list-style: none;
+  padding-left: 0;
   margin: 0;
-
-  @media #{$desktop} {
-    column-count: 2;
-    column-gap: 40px;
-  }
-
 }
 
 .list-item {
-  list-style: none;
-  box-sizing: border-box;
-  border-top: 1px solid var(--color-navy);
-  border-bottom: 1px solid var(--color-navy);
-  margin-top: -1px;
-
-  a {
-    display: flex;
-    justify-content: space-between;
-    padding: 16px;
-  }
-
-  @media #{$desktop} {
-    &:nth-child(1),
-    &:nth-child(7) {
-      margin-top: 1px;
-    }
-  }
-
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
 }
 
-.list-item-cell {
+$dot-color: var(--color-primary);
 
+.dot-set {
+  display: flex;
+  margin-right: 10px;
+}
+
+.dot {
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  margin: 2px;
+  width: 10px;
+  height: 10px;
+}
+
+.dot-set-1 {
+  .dot:nth-child(1) {
+    background-color: $dot-color;
+  }
+}
+
+.dot-set-2 {
+  .dot:nth-child(1),
+  .dot:nth-child(2) {
+    background-color: $dot-color;
+  }
+}
+
+.dot-set-3 {
+  .dot:nth-child(1),
+  .dot:nth-child(2),
+  .dot:nth-child(3) {
+    background-color: $dot-color;
+  }
+}
+
+.dot-set-4 {
+  .dot:nth-child(1),
+  .dot:nth-child(2),
+  .dot:nth-child(3),
+  .dot:nth-child(4) {
+    background-color: $dot-color;
+  }
+}
+
+.dot-set-5 {
+  .dot:nth-child(1),
+  .dot:nth-child(2),
+  .dot:nth-child(3),
+  .dot:nth-child(4),
+  .dot:nth-child(5) {
+    background-color: $dot-color;
+  }
 }
