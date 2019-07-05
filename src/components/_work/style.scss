@@ -4,7 +4,16 @@
 
 .work {
   grid-area: work;
-  margin-bottom: 170px;
+  margin-bottom: 100px;
+
+  @media #{$tablet} {
+    margin-bottom: 120px;
+  }
+
+  @media #{$desktopxl} {
+    margin-bottom: 170px;
+  }
+
 }
 
 .work-title {
