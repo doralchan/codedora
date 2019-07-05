@@ -12,7 +12,7 @@ class Blog extends Component {
 
     return (
       <div id='blog' className={ blogClasses }>
-        <img src={ Profile4 } className='blog-profile' alt='' />
+        <div className='blog-profile'><img src={ Profile4 } alt='' /></div>
         <Post title='Blog Entry 1'>
           Coming Soon
         </Post>

@@ -5,6 +5,7 @@
 .blog {
   grid-area: blog;
   position: relative;
+  margin-bottom: 150px;
 
   @media #{$tablet} {
     display: grid;
@@ -16,10 +17,10 @@
 }
 
 .blog-profile {
-  width: 180px;
-  margin-bottom: 30px;
+  display: none;
 
   @media #{$tablet} {
+    display: block;
     position: absolute;
     width: 300px;
     left: -200px;

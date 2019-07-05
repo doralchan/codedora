@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import Icon from '../icon';
-import { ReactComponent as Close } from '../../assets/icon-close.svg';
-
 import './style.scss';
 
 class Modal extends Component {
@@ -20,10 +17,13 @@ class Modal extends Component {
 
     return (
       <div className={ modalClasses }>
-        <div className='modal-close' onClick={ this.props.handleClose }>Go Back</div>
-        <h4>{ this.props.title }</h4>
+        <div className='modal-header'>
+          <h6 className='modal-close' onClick={ this.props.handleClose }>Go Home</h6>
+          <h6 className='modal-next' onClick={ this.props.handleClose }>Go Travel</h6>
+        </div>
         <div className='modal-body'>
-          { this.props.children }
+          <h3>{ this.props.title }</h3>
+          <div>{ this.props.children }</div>
         </div>
       </div>
     )
@@ -38,7 +38,7 @@ Modal.Detail = class Detail extends Component {
 
   render() {
     return (
-      <div className='modal-body-detail'>
+      <div className='modal-detail'>
         <div><strong>{ this.props.subtitle }</strong></div>
         <div>{ this.props.children }</div>
       </div>
@@ -55,7 +55,7 @@ Modal.Image = class Image extends Component {
 
   render() {
     return (
-      <div className='modal-body-image'>
+      <div className='modal-image'>
         <img src={ this.props.imgSrc } alt='' />
       </div>
     )

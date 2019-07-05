@@ -24,8 +24,10 @@ class SkillsCard extends Component {
     return (
       <Card className='skills-card'>
         <Icon iconSize='sm' iconSrc={ this.props.iconSrc } className='skills-card-icon' />
-        <h4 className='skills-card-title'>{ this.props.cardTitle }</h4>
-        <div className='skills-card-content'>{ this.props.children }</div>
+        <div className='skills-card-content'>
+          <h4 className='skills-card-title'>{ this.props.cardTitle }</h4>
+          { this.props.children }
+        </div>
       </Card>
     )
   }
@@ -68,15 +70,15 @@ class Skills extends Component {
 
     return (
       <div id='skills' className={ skillsClasses }>
-        <div className='skills-cards'>
-          <Fade top wave>
+        <Fade bottom wave>
+          <div className='skills-cards'>
             { this.renderUX() }
             { this.renderFrontEnd() }
             { this.renderSystems() }
-          </Fade>
-        </div>
-        <div className='skills-background'></div>
-        <img src={ Profile3 } className='skills-profile' alt='' />
+          </div>
+        </Fade>
+        <div className='skills-background' />
+        <div className='skills-profile'><img src={ Profile3 } alt='' /></div>
       </div>
     )
   }

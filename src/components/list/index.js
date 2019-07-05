@@ -32,35 +32,11 @@ List.Item = class List extends React.Component {
     fill: PropTypes.number
   };
 
-  listItemClasses() {
-    return classNames(
-      'list-item',
-      this.props.className
-    )
-  }
-
-  dotClasses() {
-    return classNames(
-      'dot-set',
-      `dot-set-${this.props.fill}`
-    )
-  }
-
-  renderDots() {
-    return (
-      <div className={ this.dotClasses() }>
-        <div className='dot' />
-        <div className='dot' />
-        <div className='dot' />
-        <div className='dot' />
-        <div className='dot' />
-      </div>
-    )
-  }
-
   render() {
+    const listItemClasses = classNames('list-item', this.props.className);
+
     return (
-      <li className={ this.listItemClasses() }>
+      <li className={ listItemClasses }>
         { this.props.children }
       </li>
     )

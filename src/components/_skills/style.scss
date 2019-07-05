@@ -4,28 +4,38 @@
 
 .skills {
   grid-area: skills;
-  position: relative;
+  margin-bottom: 100px;
 }
 
 .skills-cards {
-  display: flex;
-  justify-content: space-between;
-}
+  margin-bottom: 140px;
 
-.skills-profile {
-  width: 130px;
+  @media #{$tablet} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  @media #{$desktop} {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 45px;
+    margin-bottom: 50px;
+  }
+
 }
 
 .skills-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  min-height: 200px;
+  margin-bottom: 24px;
 
-  .skills-card-title {
-
-  }
-
-  .skills-card-icon {
-    transition: all 1s ease-in-out;
-    transform-origin: 50% 50%;
-    transform: rotate(0deg);
+  @media #{$desktop} {
+    min-height: 260px;
+    margin-bottom: 0;
   }
 
   &:hover {
@@ -38,6 +48,19 @@
 
 }
 
+.skills-card-title {
+  margin-bottom: 8px;
+}
+
+.skills-card-icon {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  transition: all 1s ease-in-out;
+  transform-origin: 50% 50%;
+  transform: rotate(0deg);
+}
+
 .skills-background {
   background-color: var(--color-gray-light);
   height: 250px;
@@ -45,7 +68,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
+  top: 1200px;
   z-index: -1;
 
   &:after {
@@ -57,4 +80,32 @@
     position: absolute;
     bottom: -150px;
   }
+
+  @media #{$tablet} {
+    top: 950px;
+  }
+
+  @media #{$desktop} {
+    top: 700px;
+  }
+
+  @media #{$desktopxl} {
+    top: 900px;
+  }
+
+}
+
+.skills-profile {
+  display: none;
+
+  @media #{$tablet} {
+    display: block;
+    margin: 0 auto;
+    width: 210px;
+  }
+
+  @media #{$desktopxl} {
+    width: 275px;
+  }
+
 }

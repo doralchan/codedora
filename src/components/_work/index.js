@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 
 import { ModalContainer, ModalRoute } from 'react-router-modal';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 import Table from '../table';
 import projects from './projects.json';
@@ -33,7 +33,7 @@ class Work extends Component {
     return (
       <BrowserRouter>
         <div id='work' className={ workClasses }>
-          <h4>Most Recent Work</h4>
+          <h4 className='work-title'>Most Recent Work</h4>
           <Table>
             {
               Object

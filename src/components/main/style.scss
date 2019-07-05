@@ -15,11 +15,12 @@
     [skills] auto
     [work] auto
     [blog] auto
-    [contact] 400px;
+    [contact] auto;
   grid-template-columns: 0 12fr 0;
   grid-column-gap: 40px;
   width: 100vw;
   min-height: 100vh;
+  position: relative;
 
   @media #{$tablet} {
     grid-template-areas:
@@ -29,22 +30,22 @@
       ". . blog ."
       ". contact . .";
     grid-template-rows:
-      [hero] 600px
+      [hero] 650px
       [skills] auto
       [work] auto
       [blog] auto
-      [contact] 400px;
+      [contact] 300px;
     grid-template-columns: 1fr minmax(min-content, 460px) minmax(min-content, 460px) 1fr;
   }
 
   @media #{$desktopxl} {
     grid-template-columns: 1fr minmax(min-content, 560px) minmax(min-content, 560px) 1fr;
     grid-template-rows:
-      [hero] 750px
+      [hero] 800px
       [skills] auto
       [work] auto
       [blog] auto
-      [contact] 40vh;
+      [contact] 350px;
   }
 
 }

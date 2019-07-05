@@ -8,7 +8,7 @@ import './style.scss';
 class Nav extends Component {
   render() {
     const navClasses = classNames('nav', this.props.className);
-    const navList = ['intro', 'skills', 'work', 'blog', 'contact'];
+    const navList = ['skills', 'work', 'blog', 'contact'];
 
     return (
       <nav className={ navClasses }>

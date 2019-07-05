@@ -16,12 +16,12 @@ class Hero extends Component {
     return (
       <div className={ heroClasses }>
         <Nav className='hero-nav' />
-        <img src={ Profile1 } className='hero-profile-1' alt='' />
-        <img src={ Profile2 } className='hero-profile-2' alt='' />
+        <div className='hero-profile-1'><img src={ Profile1 } alt='' /></div>
+        <div className='hero-profile-2'><img src={ Profile2 } alt='' /></div>
         <div className='hero-block'>
-          <h1 className='hero-block-title'>Why, Hello</h1>
+          <h1 className='hero-block-title'>Hello There</h1>
           <div className='hero-block-desc'>
-            I'm Dora, a product and systems designer located in San Francisco. I also dabble in front-end cause I love it.
+            I'm Dora, a product and systems designer located in San Francisco. I currently work at Square.
           </div>
           <div className='hero-block-ctas'>
             <Button className='block-ctas-btn'>Show Me</Button>
