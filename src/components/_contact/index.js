@@ -11,30 +11,30 @@ class Contact extends Component {
 
     return (
       <div id='contact' className={ contactClasses }>
-        <h4 className='contact-title'>Contact</h4>
-        <div className='contact-blurb'>
-          <p>
+        <div className='contact-block'>
+          <h4 className='contact-block-title'>Contact</h4>
+          <div className='contact-block-blurb'>
             If you'd like to chat or see more projects, feel free to contact me through any of the methods below. I'm usually available for coffee or tacos.
-          </p>
+          </div>
+          <ul className='contact-block-list'>
+            <li><Link to='https://www.linkedin.com/in/doralchan/'>LinkedIn</Link></li>
+            <li><Link to='https://dribbble.com/doralchan'>Dribble</Link></li>
+            <li><Link to='https://www.pinterest.com/doralchan/'>Pinterest</Link></li>
+            <li><Link to='https://twitter.com/doralchan'>Twitter</Link></li>
+            <li><Link to=''>Media</Link></li>
+            <li><Link to=''>Media</Link></li>
+            <li><Link to=''>Media</Link></li>
+            <li><Link to=''>Media</Link></li>
+            <li><Link to=''>Media</Link></li>
+            <li><Link to=''>Media</Link></li>
+            <li><Link to=''>Media</Link></li>
+            <li><Link to=''>Media</Link></li>
+            <li><Link to=''>Media</Link></li>
+            <li><Link to=''>Media</Link></li>
+            <li><Link to=''>Media</Link></li>
+            <li><Link to=''>Media</Link></li>
+          </ul>
         </div>
-        <ul className='contact-list'>
-          <li><Link to=''>LinkedIn</Link></li>
-          <li><Link to=''>Dribble</Link></li>
-          <li><Link to=''>Pinterest</Link></li>
-          <li><Link to=''>Twitter</Link></li>
-          <li><Link to=''>LinkedIn</Link></li>
-          <li><Link to=''>LinkedIn</Link></li>
-          <li><Link to=''>LinkedIn</Link></li>
-          <li><Link to=''>LinkedIn</Link></li>
-          <li><Link to=''>LinkedIn</Link></li>
-          <li><Link to=''>LinkedIn</Link></li>
-          <li><Link to=''>LinkedIn</Link></li>
-          <li><Link to=''>LinkedIn</Link></li>
-          <li><Link to=''>LinkedIn</Link></li>
-          <li><Link to=''>LinkedIn</Link></li>
-          <li><Link to=''>LinkedIn</Link></li>
-          <li><Link to=''>LinkedIn</Link></li>
-        </ul>
       </div>
     )
   }

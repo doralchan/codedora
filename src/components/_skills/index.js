@@ -25,8 +25,8 @@ class SkillsCard extends Component {
       <Card className='skills-card'>
         <Icon iconSize='sm' iconSrc={ this.props.iconSrc } className='skills-card-icon' />
         <div className='skills-card-content'>
-          <h4 className='skills-card-title'>{ this.props.cardTitle }</h4>
-          { this.props.children }
+          <h5 className='skills-card-title'>{ this.props.cardTitle }</h5>
+          <div className='skills-card-body'>{ this.props.children }</div>
         </div>
       </Card>
     )

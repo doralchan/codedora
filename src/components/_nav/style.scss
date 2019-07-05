@@ -6,6 +6,12 @@
   display: flex;
   align-items: center;
   width: 100%;
+  margin-bottom: 30px;
+
+  @media #{$tablet} {
+    margin-bottom: 0;
+  }
+
 }
 
 .nav-logo {

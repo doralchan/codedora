@@ -4,21 +4,46 @@
 
 .contact {
   grid-area: contact;
-  position: relative;
-  display: flex;
-  flex-direction: column;
+  color: var(--color-white);
+  background-color: var(--color-navy-dark);
+  display: grid;
+  grid-template-areas:
+    ". contactblock . .";
+  grid-template-columns: 0 12fr 0;
+  width: 100vw;
+
+  @media #{$tablet} {
+    grid-template-columns: 1fr minmax(min-content, 460px) minmax(min-content, 460px) 1fr;
+    grid-column-gap: 20px;
+  }
+
+  @media #{$desktopxl} {
+    grid-template-columns: 1fr minmax(min-content, 560px) minmax(min-content, 560px) 1fr;
+    grid-column-gap: 40px;
+  }
+
 }
 
-.contact-title {
-  margin-bottom: 8px;
-}
+.contact-block {
+  grid-area: contactblock;
+  padding: 40px;
 
-.contact-blurb {
+  .contact-block-title {
+    margin-bottom: 8px;
+  }
 
-}
+  .contact-block-list {
+    padding: 0;
+    list-style: none;
+    column-count: 4;
+  }
 
-.contact-list {
-  padding: 0;
-  list-style: none;
-  column-count: 4;
+  @media #{$tablet} {
+    padding: 60px 20px 80px 20px;
+  }
+
+  @media #{$desktopxl} {
+    padding: 60px 0 80px 0;
+  }
+
 }

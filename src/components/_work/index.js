@@ -33,7 +33,7 @@ class Work extends Component {
     return (
       <BrowserRouter>
         <div id='work' className={ workClasses }>
-          <h4 className='work-title'>Most Recent Work</h4>
+          <h4 className='work-title'>Selected Works</h4>
           <Table>
             {
               Object

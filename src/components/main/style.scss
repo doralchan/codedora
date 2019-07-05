@@ -9,7 +9,7 @@
     ". skills ."
     ". work ."
     ". blog ."
-    ". contact .";
+    "contact contact contact";
   grid-template-rows:
     [hero] auto
     [skills] auto
@@ -28,14 +28,15 @@
       ". skills skills ."
       ". work work ."
       ". . blog ."
-      ". contact . .";
+      "contact contact contact contact";
     grid-template-rows:
       [hero] 600px
       [skills] auto
       [work] auto
       [blog] auto
-      [contact] 300px;
+      [contact] auto;
     grid-template-columns: 1fr minmax(min-content, 460px) minmax(min-content, 460px) 1fr;
+    grid-column-gap: 20px;
   }
 
   @media #{$desktopxl} {
@@ -45,7 +46,8 @@
       [skills] auto
       [work] auto
       [blog] auto
-      [contact] 350px;
+      [contact] auto;
+    grid-column-gap: 40px;
   }
 
 }
