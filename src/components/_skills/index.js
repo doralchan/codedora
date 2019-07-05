@@ -8,7 +8,7 @@ import Card from '../card';
 import Icon from '../icon';
 
 import Profile3 from '../../assets/profile_3.svg';
-import IconCircle from '../../assets/icon-circle.svg';
+import IconHexagon from '../../assets/icon-hexagon.svg';
 import IconTriangle from '../../assets/icon-triangle.svg';
 import IconSquare from '../../assets/icon-square.svg';
 
@@ -37,31 +37,31 @@ class SkillsCard extends Component {
 class Skills extends Component {
   renderUX () {
     return (
-      <div className='skill'>
-        <SkillsCard cardTitle='ux/ui' iconSrc={ IconCircle }>
+      <Fade bottom className='skill'>
+        <SkillsCard cardTitle='ux/ui' iconSrc={ IconHexagon }>
           Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
         </SkillsCard>
-      </div>
+      </Fade>
     );
   }
 
   renderFrontEnd () {
     return (
-      <div className='skill'>
+      <Fade bottom className='skill' delay={ 200 }>
         <SkillsCard cardTitle='front-end' iconSrc={ IconTriangle }>
           Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
         </SkillsCard>
-      </div>
+      </Fade>
     );
   }
 
   renderSystems () {
     return (
-      <div className='skill'>
+      <Fade bottom className='skill' delay={ 300 }>
         <SkillsCard cardTitle='systems' iconSrc={ IconSquare }>
           Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
         </SkillsCard>
-      </div>
+      </Fade>
     );
   }
 
@@ -70,13 +70,11 @@ class Skills extends Component {
 
     return (
       <div id='skills' className={ skillsClasses }>
-        <Fade bottom wave>
-          <div className='skills-cards'>
-            { this.renderUX() }
-            { this.renderFrontEnd() }
-            { this.renderSystems() }
-          </div>
-        </Fade>
+        <div className='skills-cards'>
+          { this.renderUX() }
+          { this.renderFrontEnd() }
+          { this.renderSystems() }
+        </div>
         <div className='skills-background' />
         <div className='skills-profile'><img src={ Profile3 } alt='' /></div>
       </div>
