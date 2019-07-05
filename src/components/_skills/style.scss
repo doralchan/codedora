@@ -20,7 +20,11 @@
   @media #{$desktop} {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 45px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+  }
+
+  @media #{$desktopxl} {
+    margin-bottom: 80px;
   }
 
 }
