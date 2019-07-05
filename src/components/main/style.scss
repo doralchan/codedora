@@ -30,7 +30,7 @@
       ". . blog ."
       ". contact . .";
     grid-template-rows:
-      [hero] 650px
+      [hero] 600px
       [skills] auto
       [work] auto
       [blog] auto
@@ -41,7 +41,7 @@
   @media #{$desktopxl} {
     grid-template-columns: 1fr minmax(min-content, 560px) minmax(min-content, 560px) 1fr;
     grid-template-rows:
-      [hero] 800px
+      [hero] 700px
       [skills] auto
       [work] auto
       [blog] auto
